@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UnrealVR.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{616FEFB6-7B39-4F7C-AB75-2148849CEDAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealVR.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnrealVREditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1FE2CD63-B1BA-40F5-A4F5-7C103D066E6C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UnrealVR">
+      <UniqueIdentifier>{E9AAC6DA-7E7A-449D-8F2E-911987E9FDB6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealVR\UnrealVR.Build.cs">
+      <Filter>Source\UnrealVR</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnrealVR\UnrealVR.cpp">
+      <Filter>Source\UnrealVR</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealVR\UnrealVR.h">
+      <Filter>Source\UnrealVR</Filter>
+    </ClInclude>
+    <Filter Include="Source\UnrealVR\Private">
+      <UniqueIdentifier>{4857A6D1-7108-49E9-86A6-383EFD07E017}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealVR\Private\Interactable.cpp">
+      <Filter>Source\UnrealVR\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealVR\Private\InteractionHelper.cpp">
+      <Filter>Source\UnrealVR\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnrealVR\Public">
+      <UniqueIdentifier>{51342E9C-F8A1-44CE-9147-0E1B5022DD1A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\UnrealVR\Public\Interactable.h">
+      <Filter>Source\UnrealVR\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealVR\Public\InteractionHelper.h">
+      <Filter>Source\UnrealVR\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

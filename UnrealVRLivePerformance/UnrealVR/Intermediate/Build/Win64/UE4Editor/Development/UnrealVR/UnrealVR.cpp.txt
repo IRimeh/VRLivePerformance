@@ -1,0 +1,2 @@
+C:\Users\454928\Documents\School\Year 4\SSS\Project\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Definitions.UnrealVR.h
+C:\Users\454928\Documents\School\Year 4\SSS\Project\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Source\UnrealVR\UnrealVR.h
