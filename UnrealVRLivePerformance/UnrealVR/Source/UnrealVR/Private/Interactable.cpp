@@ -44,3 +44,13 @@ void AInteractable::Deselect()
 	isSelected = false;
 }
 
+
+void AInteractable::Grab()
+{
+
+}
+
+void AInteractable::Release()
+{
+
+}
