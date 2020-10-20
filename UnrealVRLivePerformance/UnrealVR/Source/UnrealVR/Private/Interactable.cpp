@@ -9,6 +9,8 @@ AInteractable::AInteractable()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	Mesh->SetSimulatePhysics(true);
 }
 
 // Called when the game starts or when spawned
@@ -25,9 +27,9 @@ void AInteractable::Tick(float DeltaTime)
 
 }
 
-void AInteractable::Interact()
+void AInteractable::Interact(const UStaticMeshComponent* controller)
 {
-	onInteract();
+	onInteract(controller);
 }
 
 void AInteractable::Select()
@@ -45,12 +47,20 @@ void AInteractable::Deselect()
 }
 
 
-void AInteractable::Grab()
+void AInteractable::Grab(const USceneComponent* objectToAttachTo, const FVector grabLocation, const FRotator grabRotation)
 {
+	onGrab();
+	Mesh->SetSimulatePhysics(false);
 
+	AttachToComponent(const_cast<USceneComponent*>(objectToAttachTo), FAttachmentTransformRules::KeepWorldTransform);
+	RootComponent->SetWorldLocation(grabLocation);
+	RootComponent->SetWorldRotation(grabRotation);
 }
 
 void AInteractable::Release()
 {
+	onRelease();
+	Mesh->SetSimulatePhysics(true);
 
+	DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
 }

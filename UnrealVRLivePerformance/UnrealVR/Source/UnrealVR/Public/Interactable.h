@@ -17,20 +17,23 @@ public:
 
 	//Interaction
 	UFUNCTION(BlueprintImplementableEvent, Category = "Interaction")
-	void onInteract();
+	void onInteract(const UStaticMeshComponent* controller);
 
 	//Selection
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interaction")
+	bool isSelected;
+
 	UFUNCTION(BlueprintCallable, Category = "Interaction")
 	void Select();
 	UFUNCTION(BlueprintCallable, Category = "Interaction")
 	void Deselect();
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interaction")
-	bool isSelected;
-
 	//Grabbing
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grabbing")
+	bool isGrabbable;
+
 	UFUNCTION(BlueprintCallable, Category = "Grabbing")
-	void Grab();
+	void Grab(const USceneComponent* objectToAttachTo, const FVector grabLocation, const FRotator grabRotation);
 	UFUNCTION(BlueprintCallable, Category = "Grabbing")
 	void Release();
 	
@@ -38,6 +41,9 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "Mesh")
+	UStaticMeshComponent* Mesh;
 
 	//Selection
 	UFUNCTION(BlueprintImplementableEvent, Category = "Interaction")
@@ -56,5 +62,5 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable, Category = "Interaction")
-	void Interact();
+	void Interact(const UStaticMeshComponent* controller);
 };

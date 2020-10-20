@@ -8,6 +8,10 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UStaticMeshComponent;
+class USceneComponent;
+struct FVector;
+struct FRotator;
 #ifdef UNREALVR_Interactable_generated_h
 #error "Interactable.generated.h already included, missing '#pragma once' in Interactable.h"
 #endif
@@ -17,6 +21,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define UnrealVR_Source_UnrealVR_Public_Interactable_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execInteract); \
+	DECLARE_FUNCTION(execRelease); \
+	DECLARE_FUNCTION(execGrab); \
 	DECLARE_FUNCTION(execDeselect); \
 	DECLARE_FUNCTION(execSelect);
 
@@ -24,11 +30,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define UnrealVR_Source_UnrealVR_Public_Interactable_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execInteract); \
+	DECLARE_FUNCTION(execRelease); \
+	DECLARE_FUNCTION(execGrab); \
 	DECLARE_FUNCTION(execDeselect); \
 	DECLARE_FUNCTION(execSelect);
 
 
-#define UnrealVR_Source_UnrealVR_Public_Interactable_h_12_EVENT_PARMS
+#define UnrealVR_Source_UnrealVR_Public_Interactable_h_12_EVENT_PARMS \
+	struct Interactable_eventonInteract_Parms \
+	{ \
+		const UStaticMeshComponent* controller; \
+	};
+
+
 #define UnrealVR_Source_UnrealVR_Public_Interactable_h_12_CALLBACK_WRAPPERS
 #define UnrealVR_Source_UnrealVR_Public_Interactable_h_12_INCLASS_NO_PURE_DECLS \
 private: \
@@ -72,7 +86,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AInteractable); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AInteractable)
 
 
-#define UnrealVR_Source_UnrealVR_Public_Interactable_h_12_PRIVATE_PROPERTY_OFFSET
+#define UnrealVR_Source_UnrealVR_Public_Interactable_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AInteractable, Mesh); }
+
+
 #define UnrealVR_Source_UnrealVR_Public_Interactable_h_9_PROLOG \
 	UnrealVR_Source_UnrealVR_Public_Interactable_h_12_EVENT_PARMS
 

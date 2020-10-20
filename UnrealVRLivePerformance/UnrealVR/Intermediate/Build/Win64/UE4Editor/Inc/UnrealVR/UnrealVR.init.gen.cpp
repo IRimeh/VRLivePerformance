@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealVR_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x30704842,
+				0xD5AF953F,
 				0x2DB57BE7,
 				METADATA_PARAMS(nullptr, 0)
 			};
