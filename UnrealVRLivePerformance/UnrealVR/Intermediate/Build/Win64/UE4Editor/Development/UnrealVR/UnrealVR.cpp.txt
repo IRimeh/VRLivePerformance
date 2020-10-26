@@ -1,2 +1,2 @@
-C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Definitions.UnrealVR.h
-C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Source\UnrealVR\UnrealVR.h
+F:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Definitions.UnrealVR.h
+f:\mathieu te stroete\school\ict schoolwork\year 3\minor\vrliveperformance\unrealvrliveperformance\unrealvr\source\unrealvr\UnrealVR.h
