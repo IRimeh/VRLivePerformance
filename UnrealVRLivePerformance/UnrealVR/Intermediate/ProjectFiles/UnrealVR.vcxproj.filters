@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealVR.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EDFE3641-5846-4643-8E56-0247F99E8D06}</UniqueIdentifier>
+      <UniqueIdentifier>{41612BCB-BC9B-465C-9159-1DF5D4A84DBF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealVR.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D7A25FE0-BCFC-417A-A24D-3351D7E4EDF9}</UniqueIdentifier>
+      <UniqueIdentifier>{A1675A79-0679-4FFC-B9A2-C214F10CC911}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealVR">
-      <UniqueIdentifier>{9CDC616B-4601-42A4-AD13-8E570C7E9DD0}</UniqueIdentifier>
+      <UniqueIdentifier>{5A9905D5-9832-4B29-89FB-A63C61C6B71E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealVR\UnrealVR.Build.cs">
       <Filter>Source\UnrealVR</Filter>
@@ -39,7 +39,7 @@
       <Filter>Source\UnrealVR</Filter>
     </ClInclude>
     <Filter Include="Source\UnrealVR\Private">
-      <UniqueIdentifier>{99BDE220-02DA-4AA9-82F1-2F98091B1D65}</UniqueIdentifier>
+      <UniqueIdentifier>{A5B41624-392D-45A8-B970-0FFE7BCB9750}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealVR\Private\Interactable.cpp">
       <Filter>Source\UnrealVR\Private</Filter>
@@ -48,7 +48,7 @@
       <Filter>Source\UnrealVR\Private</Filter>
     </ClCompile>
     <Filter Include="Source\UnrealVR\Public">
-      <UniqueIdentifier>{FDBD40BE-2C99-49EE-9124-97EDF1804518}</UniqueIdentifier>
+      <UniqueIdentifier>{01EC8CFA-1684-4D56-98E2-07C99DF63C3C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\UnrealVR\Public\Interactable.h">
       <Filter>Source\UnrealVR\Public</Filter>
