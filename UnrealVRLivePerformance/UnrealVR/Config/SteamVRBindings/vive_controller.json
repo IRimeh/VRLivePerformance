@@ -30,13 +30,35 @@
 					}
 				},
 				{
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabLeft"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabRight"
+						}
+					}
+				},
+				{
 					"mode": "trigger",
 					"path": "/user/hand/left/input/trigger",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/GrabLeft"
+							"output": "/actions/main/in/PointLeft"
 						}
 					}
 				},
@@ -47,7 +69,29 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/GrabRight"
+							"output": "/actions/main/in/PointRight"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/left/input/trackpad",
+					"inputs":
+					{
+						"touch":
+						{
+							"output": "/actions/main/in/InteractLeft"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/right/input/trackpad",
+					"inputs":
+					{
+						"touch":
+						{
+							"output": "/actions/main/in/InteractRight"
 						}
 					}
 				},
@@ -107,5 +151,5 @@
 			]
 		}
 	},
-	"description": ""
+	"description": "UnrealVR-13942748"
 }
