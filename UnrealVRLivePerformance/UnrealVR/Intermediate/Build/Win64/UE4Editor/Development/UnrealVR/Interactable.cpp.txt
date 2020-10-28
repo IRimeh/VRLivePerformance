@@ -1,3 +1,3 @@
-C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Definitions.UnrealVR.h
-C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Source\UnrealVR/Public/Interactable.h
-C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Inc\UnrealVR\Interactable.generated.h
+F:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Definitions.UnrealVR.h
+F:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Source\UnrealVR/Public/Interactable.h
+F:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Inc\UnrealVR\Interactable.generated.h

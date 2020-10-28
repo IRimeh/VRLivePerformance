@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR\\UnrealVR.Build.cs",
-		"C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR.Target.cs",
-		"C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Target.cs"
+		"F:\\Mathieu te Stroete\\School\\ICT Schoolwork\\Year 3\\Minor\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR\\UnrealVR.Build.cs",
+		"F:\\Mathieu te Stroete\\School\\ICT Schoolwork\\Year 3\\Minor\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR.Target.cs",
+		"F:\\Mathieu te Stroete\\School\\ICT Schoolwork\\Year 3\\Minor\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Target.cs"
 	],
 	"EngineVersion": "4.25.3"
 }
