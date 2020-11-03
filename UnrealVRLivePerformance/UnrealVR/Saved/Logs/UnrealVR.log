@@ -710,3 +710,1464 @@ Make sure 'RightHand_AnimBP' has been compiled for  Get Hand
 [2020.11.03-12.14.53:227][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
 [2020.11.03-12.14.57:552][254]LogSlate: Window 'Message Log' being destroyed
 [2020.11.03-12.14.57:556][254]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.20.36:077][ 71]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.03-12.20.36:108][ 71]LogBlueprint: Warning: [Compiler PersistentLevel.Greybox] Node  Unknown  is not referencing a valid level actor
+[2020.11.03-12.20.36:314][ 71]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Greybox/Greybox.Greybox
+[2020.11.03-12.20.36:324][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.11.03-12.20.36:326][ 71]Cmd: MAP LOAD FILE="../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.03-12.20.36:326][ 71]LightingResults: New page: Lighting Build
+[2020.11.03-12.20.36:326][ 71]LoadErrors: New page: Loading map: Greybox.umap
+[2020.11.03-12.20.36:360][ 71]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-12.20.36:360][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-12.20.36:360][ 71]MapCheck: New page: Map Check
+[2020.11.03-12.20.36:360][ 71]LightingResults: New page: Lighting Build
+[2020.11.03-12.20.36:371][ 71]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022F9B4D4E00), frame # 2071
+[2020.11.03-12.20.36:371][ 71]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022FBDE16FC0), frame # 2071
+[2020.11.03-12.20.36:371][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.11.03-12.20.36:375][ 71]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.03-12.20.36:375][ 71]LogAIModule: Creating AISystem for world Greybox
+[2020.11.03-12.20.36:375][ 71]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022F9B483400), frame # 2071
+[2020.11.03-12.20.36:375][ 71]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022FBD49AAC0), frame # 2071
+[2020.11.03-12.20.36:385][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.11.03-12.20.36:422][ 71]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.03-12.20.36:422][ 71]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,077ms to complete.
+[2020.11.03-12.20.36:423][ 71]LogFileHelpers: Loading map 'Greybox' took 0.096
+[2020.11.03-12.21.18:845][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FullEnv_Stage7)
+[2020.11.03-12.24.27:097][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FullEnv_Stage11)
+[2020.11.03-12.25.00:091][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FullEnv_Stage8)
+[2020.11.03-12.25.00:708][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FullEnv_Stage8)
+[2020.11.03-12.25.05:171][133]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.25.06:262][197]Cmd: TRANSACTION UNDO
+[2020.11.03-12.25.06:263][197]LogEditorTransaction: Undo Clicking on Actors
+[2020.11.03-12.25.06:634][207]Cmd: TRANSACTION UNDO
+[2020.11.03-12.25.06:634][207]LogEditorTransaction: Undo Move Actors
+[2020.11.03-12.25.07:567][257]Cmd: TRANSACTION UNDO
+[2020.11.03-12.25.07:568][257]LogEditorTransaction: Undo Move Actors
+[2020.11.03-12.25.08:597][317]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.25.53:405][955]Cmd: TRANSACTION UNDO
+[2020.11.03-12.25.53:405][955]LogEditorTransaction: Undo Edit Fog Height Falloff
+[2020.11.03-12.25.56:035][ 97]Cmd: TRANSACTION UNDO
+[2020.11.03-12.25.56:036][ 97]LogEditorTransaction: Undo Edit Fog Height Offset
+[2020.11.03-12.26.00:619][368]Cmd: TRANSACTION UNDO
+[2020.11.03-12.26.00:619][368]LogEditorTransaction: Undo Edit Fog Height Falloff
+[2020.11.03-12.26.04:315][574]Cmd: TRANSACTION UNDO
+[2020.11.03-12.26.04:315][574]LogEditorTransaction: Undo Edit Start Distance
+[2020.11.03-12.26.45:970][ 24]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.03-12.27.02:211][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.11.03-12.27.02:247][989]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Greybox34BFFC2448539FC7CCAA53BF57211722.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox.umap'
+[2020.11.03-12.27.02:294][989]AssetCheck: New page: Asset Save: Greybox
+[2020.11.03-12.27.02:294][989]LogContentValidation: Display: Validating World /Game/Maps/Greybox/Greybox.Greybox
+[2020.11.03-12.27.03:266][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:266][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:266][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:266][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:275][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.27.03:275][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.27.03:276][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.27.03:276][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.27.03:276][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.27.03:276][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.27.03:276][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.27.03:276][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.27.03:276][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.27.03:276][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.27.03:276][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.27.03:277][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.27.03:277][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.27.03:277][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.27.03:277][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.27.03:277][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.27.03:277][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:277][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:277][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:277][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:277][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:277][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:278][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.27.03:278][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.27.03:278][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.27.03:278][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.27.03:279][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:279][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:279][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:279][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:279][ 43]LogLinker: Warning: Failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.27.03:279][ 43]LogLinker: Warning: Failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.27.03:279][ 43]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.27.03:279][ 43]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.27.03:279][ 43]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.27.03:279][ 43]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.27.03:279][ 43]LogLinker: Warning: Failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.27.03:280][ 43]LogLinker: Warning: Failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.27.03:280][ 43]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.27.03:280][ 43]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.27.03:280][ 43]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.27.03:280][ 43]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.27.03:280][ 43]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.27.03:280][ 43]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.27.03:280][ 43]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.27.03:280][ 43]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.27.03:280][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:280][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:281][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:281][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:281][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:281][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:281][ 43]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.27.03:281][ 43]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.27.03:281][ 43]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.27.03:281][ 43]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.27.03:283][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:283][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:283][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:283][ 43]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.27.03:288][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.27.03:288][ 43]LoadErrors: Failed to load /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData.StageLevel_BuiltData Referenced by PersistentLevel
+[2020.11.03-12.27.03:288][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.27.03:289][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.27.03:289][ 43]LoadErrors: Failed to load /Game/Meshes/Dancer/rp_manuel_animated_001_dancing.rp_manuel_animated_001_dancing Referenced by rp_manuel_animated_001_dancing2
+[2020.11.03-12.27.03:289][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.27.03:289][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.27.03:289][ 43]LoadErrors: Failed to load /Game/Meshes/Dancer/rp_manuel_animated_001_dancing.rp_manuel_animated_001_dancing Referenced by rp_manuel_animated_001_dancing_14
+[2020.11.03-12.27.03:290][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.27.03:290][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.27.03:290][ 43]LoadErrors: Failed to load /Game/Meshes/GreyBoxCItyV1.GreyBoxCItyV1 Referenced by GreyBoxCItyV1_2
+[2020.11.03-12.27.03:290][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.27.03:290][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.27.03:290][ 43]LoadErrors: Failed to load /Game/Meshes/lambert1.lambert1 Referenced by GreyBoxCItyV1_2
+[2020.11.03-12.27.03:290][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.27.03:290][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.27.03:290][ 43]LoadErrors: Failed to load /Game/Materials/SpeakerMaterial0.SpeakerMaterial0 Referenced by GreyBoxCItyV1_2
+[2020.11.03-12.27.03:290][ 43]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.27.03:312][ 43]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.StageLevel
+[2020.11.03-12.27.03:323][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.11.03-12.27.03:324][ 43]Cmd: MAP LOAD FILE="../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.03-12.27.03:324][ 43]LightingResults: New page: Lighting Build
+[2020.11.03-12.27.03:325][ 43]LoadErrors: New page: Loading map: StageLevel.umap
+[2020.11.03-12.27.03:349][ 43]LogWorld: UWorld::CleanupWorld for Greybox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-12.27.03:349][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-12.27.03:350][ 43]MapCheck: New page: Map Check
+[2020.11.03-12.27.03:350][ 43]LightingResults: New page: Lighting Build
+[2020.11.03-12.27.03:361][ 43]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022FBD49AAC0), frame # 16043
+[2020.11.03-12.27.03:361][ 43]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022F9B483400), frame # 16043
+[2020.11.03-12.27.03:362][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.11.03-12.27.03:365][ 43]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.03-12.27.03:366][ 43]LogAIModule: Creating AISystem for world StageLevel
+[2020.11.03-12.27.03:366][ 43]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022FC75D8E00), frame # 16043
+[2020.11.03-12.27.03:366][ 43]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022FBD4742C0), frame # 16043
+[2020.11.03-12.27.03:517][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.11.03-12.27.03:556][ 43]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.03-12.27.03:557][ 43]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,07ms to complete.
+[2020.11.03-12.27.03:557][ 43]LogFileHelpers: Loading map 'StageLevel' took 0.233
+[2020.11.03-12.27.03:602][ 43]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Camera': MotionControllerPawn_C /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.StageLevel:PersistentLevel.VRPawn_507
+[2020.11.03-12.27.03:602][ 43]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': MotionControllerPawn_C /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.StageLevel:PersistentLevel.VRPawn_507
+[2020.11.03-12.27.03:602][ 43]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'VROrigin': MotionControllerPawn_C /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.StageLevel:PersistentLevel.VRPawn_507
+[2020.11.03-12.27.22:338][136]LogEditorViewport: Clicking on Actor (context menu): PostProcessVolume (PostProcessVolume)
+[2020.11.03-12.27.23:474][168]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.27.40:805][206]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.27.57:612][186]Cmd: EDIT COPY
+[2020.11.03-12.27.57:762][192]Cmd: EDIT COPY
+[2020.11.03-12.27.57:895][200]Cmd: EDIT COPY
+[2020.11.03-12.28.00:881][376]LogBlueprint: Warning: [Compiler PersistentLevel.Greybox] Node  Unknown  is not referencing a valid level actor
+[2020.11.03-12.28.00:888][376]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Greybox/Greybox.Greybox
+[2020.11.03-12.28.00:899][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.11.03-12.28.00:903][376]Cmd: MAP LOAD FILE="../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.03-12.28.00:903][376]LightingResults: New page: Lighting Build
+[2020.11.03-12.28.00:903][376]LoadErrors: New page: Loading map: Greybox.umap
+[2020.11.03-12.28.00:904][376]LogWorld: UWorld::CleanupWorld for StageLevel, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-12.28.00:904][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-12.28.00:904][376]MapCheck: New page: Map Check
+[2020.11.03-12.28.00:904][376]LightingResults: New page: Lighting Build
+[2020.11.03-12.28.00:914][376]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022FBD4742C0), frame # 19376
+[2020.11.03-12.28.00:914][376]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022FC75D8E00), frame # 19376
+[2020.11.03-12.28.00:915][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.11.03-12.28.00:918][376]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.03-12.28.00:919][376]LogAIModule: Creating AISystem for world Greybox
+[2020.11.03-12.28.00:919][376]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022F98863C00), frame # 19376
+[2020.11.03-12.28.00:919][376]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022FBD476200), frame # 19376
+[2020.11.03-12.28.00:930][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.11.03-12.28.00:971][376]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.03-12.28.00:971][376]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,069ms to complete.
+[2020.11.03-12.28.00:971][376]LogFileHelpers: Loading map 'Greybox' took 0.068
+[2020.11.03-12.28.06:641][713]Cmd: DELETE
+[2020.11.03-12.28.06:641][713]Cmd: ACTOR DELETE
+[2020.11.03-12.28.06:650][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.11.03-12.28.06:652][713]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2020.11.03-12.28.09:697][895]Cmd: DELETE
+[2020.11.03-12.28.09:697][895]Cmd: ACTOR DELETE
+[2020.11.03-12.28.09:698][895]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2020.11.03-12.28.09:699][895]LogEditorActor: Actor Light Source is referenced by SkySphereBlueprint.
+[2020.11.03-12.28.12:793][895]LogSlate: Window 'Message' being destroyed
+[2020.11.03-12.28.12:798][895]Message dialog closed, result: YesAll, title: Message, text: Actor Light Source is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+SkySphereBlueprint
+[2020.11.03-12.28.12:799][895]LogEditorActor: Deleted Actor: DirectionalLight
+[2020.11.03-12.28.12:800][895]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2020.11.03-12.28.12:801][895]LogEditorActor: Deleted Actor: PostProcessVolume
+[2020.11.03-12.28.12:801][895]LogEditorActor: Deleted Actor: SkyLight
+[2020.11.03-12.28.12:802][895]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2020.11.03-12.28.12:812][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.11.03-12.28.12:814][895]LogEditorActor: Deleted 6 Actors (0.017 secs)
+[2020.11.03-12.28.22:273][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:273][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:273][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:273][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:274][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.28.22:274][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.28.22:274][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.28.22:274][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.28.22:274][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.28.22:274][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.28.22:274][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.28.22:274][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.28.22:274][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.28.22:274][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.28.22:275][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.28.22:275][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.28.22:275][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.28.22:275][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.28.22:275][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.28.22:275][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.28.22:275][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:275][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:275][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:275][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:275][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:276][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:276][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.28.22:276][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.28.22:276][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.28.22:276][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.28.22:276][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:276][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:277][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:277][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:277][460]LogLinker: Warning: Failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.28.22:277][460]LogLinker: Warning: Failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.28.22:277][460]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.28.22:277][460]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.28.22:277][460]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.28.22:277][460]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.28.22:277][460]LogLinker: Warning: Failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.28.22:277][460]LogLinker: Warning: Failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.28.22:277][460]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.28.22:277][460]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.28.22:278][460]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.28.22:278][460]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.28.22:278][460]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.28.22:278][460]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.28.22:278][460]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.28.22:278][460]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.28.22:278][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:278][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:279][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:279][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:279][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:279][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:279][460]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.28.22:279][460]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.28.22:279][460]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.28.22:279][460]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.28.22:282][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:282][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:282][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:282][460]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.03-12.28.22:283][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.28.22:283][460]LoadErrors: Failed to load /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData.StageLevel_BuiltData Referenced by PersistentLevel
+[2020.11.03-12.28.22:284][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel_BuiltData': Can't find file.
+[2020.11.03-12.28.22:284][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.28.22:284][460]LoadErrors: Failed to load /Game/Meshes/Dancer/rp_manuel_animated_001_dancing.rp_manuel_animated_001_dancing Referenced by rp_manuel_animated_001_dancing2
+[2020.11.03-12.28.22:284][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.28.22:284][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.28.22:284][460]LoadErrors: Failed to load /Game/Meshes/Dancer/rp_manuel_animated_001_dancing.rp_manuel_animated_001_dancing Referenced by rp_manuel_animated_001_dancing_14
+[2020.11.03-12.28.22:285][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.03-12.28.22:285][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.28.22:285][460]LoadErrors: Failed to load /Game/Meshes/GreyBoxCItyV1.GreyBoxCItyV1 Referenced by GreyBoxCItyV1_2
+[2020.11.03-12.28.22:285][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.03-12.28.22:285][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.28.22:285][460]LoadErrors: Failed to load /Game/Meshes/lambert1.lambert1 Referenced by GreyBoxCItyV1_2
+[2020.11.03-12.28.22:285][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.03-12.28.22:285][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.28.22:285][460]LoadErrors: Failed to load /Game/Materials/SpeakerMaterial0.SpeakerMaterial0 Referenced by GreyBoxCItyV1_2
+[2020.11.03-12.28.22:285][460]LogLinker: Warning: While loading '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.03-12.28.22:290][460]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.StageLevel
+[2020.11.03-12.28.22:300][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.11.03-12.28.26:262][460]LogSlate: Window 'Save Content' being destroyed
+[2020.11.03-12.28.26:326][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.11.03-12.28.26:350][460]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Greybox380C1B9A4EAE6C2172EBE58191467907.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox.umap'
+[2020.11.03-12.28.26:387][460]LogFileHelpers: Saving map 'Greybox' took 0.107
+[2020.11.03-12.28.26:387][460]Cmd: MAP LOAD FILE="../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.03-12.28.26:388][460]LightingResults: New page: Lighting Build
+[2020.11.03-12.28.26:388][460]LoadErrors: New page: Loading map: StageLevel.umap
+[2020.11.03-12.28.26:418][460]LogWorld: UWorld::CleanupWorld for Greybox, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-12.28.26:419][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-12.28.26:419][460]MapCheck: New page: Map Check
+[2020.11.03-12.28.26:419][460]LightingResults: New page: Lighting Build
+[2020.11.03-12.28.26:429][460]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022FBD476200), frame # 20460
+[2020.11.03-12.28.26:429][460]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022F98863C00), frame # 20460
+[2020.11.03-12.28.26:430][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.11.03-12.28.26:433][460]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.03-12.28.26:433][460]LogAIModule: Creating AISystem for world StageLevel
+[2020.11.03-12.28.26:433][460]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022FC75DAE00), frame # 20460
+[2020.11.03-12.28.26:433][460]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022FE72DCCC0), frame # 20460
+[2020.11.03-12.28.26:445][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.11.03-12.28.26:483][460]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.03-12.28.26:499][460]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 17,314ms to complete.
+[2020.11.03-12.28.26:499][460]LogFileHelpers: Loading map 'StageLevel' took 0.113
+[2020.11.03-12.28.26:556][460]AssetCheck: New page: Asset Save: Greybox
+[2020.11.03-12.28.26:556][460]LogContentValidation: Display: Validating World /Game/Maps/Greybox/Greybox.Greybox
+[2020.11.03-12.28.26:559][460]LogBlueprint: Warning: [Compiler PersistentLevel.Greybox] Node  Unknown  is not referencing a valid level actor
+[2020.11.03-12.28.26:565][460]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Camera': MotionControllerPawn_C /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.StageLevel:PersistentLevel.VRPawn_507
+[2020.11.03-12.28.26:565][460]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': MotionControllerPawn_C /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.StageLevel:PersistentLevel.VRPawn_507
+[2020.11.03-12.28.26:565][460]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'VROrigin': MotionControllerPawn_C /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.StageLevel:PersistentLevel.VRPawn_507
+[2020.11.03-12.28.38:972][157]Cmd: EDIT COPY
+[2020.11.03-12.28.42:233][344]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Greybox/Greybox.Greybox
+[2020.11.03-12.28.42:243][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.11.03-12.28.43:447][344]LogSlate: Window 'Save Content' being destroyed
+[2020.11.03-12.28.43:468][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.11.03-12.28.43:492][344]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/StageLevel74F5744643A908D39174EEB45E054BFA.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap'
+[2020.11.03-12.28.43:529][344]LogFileHelpers: Saving map 'StageLevel' took 0.072
+[2020.11.03-12.28.43:530][344]Cmd: MAP LOAD FILE="../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.03-12.28.43:530][344]LightingResults: New page: Lighting Build
+[2020.11.03-12.28.43:530][344]LoadErrors: New page: Loading map: Greybox.umap
+[2020.11.03-12.28.43:531][344]LogWorld: UWorld::CleanupWorld for StageLevel, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-12.28.43:531][344]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-12.28.43:531][344]MapCheck: New page: Map Check
+[2020.11.03-12.28.43:531][344]LightingResults: New page: Lighting Build
+[2020.11.03-12.28.43:539][344]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022FE72DCCC0), frame # 21344
+[2020.11.03-12.28.43:539][344]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022FC75DAE00), frame # 21344
+[2020.11.03-12.28.43:540][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.11.03-12.28.43:542][344]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.03-12.28.43:543][344]LogAIModule: Creating AISystem for world Greybox
+[2020.11.03-12.28.43:543][344]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022FC75D9600), frame # 21344
+[2020.11.03-12.28.43:543][344]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022FE7E29940), frame # 21344
+[2020.11.03-12.28.43:554][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.11.03-12.28.43:595][344]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.03-12.28.43:595][344]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,066ms to complete.
+[2020.11.03-12.28.43:595][344]LogFileHelpers: Loading map 'Greybox' took 0.065
+[2020.11.03-12.28.43:655][344]AssetCheck: New page: Asset Save: StageLevel
+[2020.11.03-12.28.43:655][344]LogContentValidation: Display: Validating World /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.StageLevel
+[2020.11.03-12.28.45:848][474]Cmd: EDIT PASTE
+[2020.11.03-12.29.03:537][523]Cmd: DELETE
+[2020.11.03-12.29.03:537][523]Cmd: ACTOR DELETE
+[2020.11.03-12.29.03:550][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.11.03-12.29.03:552][523]LogEditorActor: Deleted 0 Actors (0.015 secs)
+[2020.11.03-12.29.11:690][ 11]Cmd: TRANSACTION UNDO
+[2020.11.03-12.29.11:690][ 11]LogEditorTransaction: Undo Edit Fog Height Falloff
+[2020.11.03-12.38.36:780][449]MapCheck: New page: Map Check
+[2020.11.03-12.38.36:883][449]LightingResults: New page: Lighting Build - 3 nov. 2020 14:38:36
+[2020.11.03-12.38.37:163][449]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.03-12.38.37:276][449]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.03-12.38.37:291][449]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.03-12.38.38:304][449]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.03-12.38.38:304][449]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3044
+[2020.11.03-12.38.44:741][449]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.03-12.38.44:741][449]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.03-12.38.44:741][449]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.03-12.38.44:741][449]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.03-12.38.44:741][449]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.03-12.38.48:075][449]LogEditorBuildUtils: Build time 0:11
+[2020.11.03-12.38.48:199][449]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer blinn1_ncl1_1, compiling. 
+[2020.11.03-12.38.48:214][449]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer blinn1_ncl1_1, compiling. 
+[2020.11.03-12.38.48:245][450]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.11.03-12.38.48:245][450]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.11.03-12.38.48:248][450]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mountain_3, compiling. 
+[2020.11.03-12.38.48:252][450]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.11.03-12.38.48:252][450]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.11.03-12.38.48:252][450]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mountain_3, compiling. 
+[2020.11.03-12.38.48:257][450]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2020.11.03-12.38.48:262][450]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2020.11.03-12.38.48:319][451]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mountain_2, compiling. 
+[2020.11.03-12.38.48:323][451]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mountain_2, compiling. 
+[2020.11.03-12.38.48:327][451]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mountain_1, compiling. 
+[2020.11.03-12.38.48:331][451]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mountain_1, compiling. 
+[2020.11.03-12.38.48:365][452]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer blinn1, compiling. 
+[2020.11.03-12.38.48:369][452]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer blinn1, compiling. 
+[2020.11.03-12.38.50:992][453]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2020.11.03-12.38.50:992][453]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.11.03-12.38.50:992][453]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2020.11.03-12.38.50:992][453]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.11.03-12.38.50:992][453]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.11.03-12.38.50:992][453]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.11.03-12.38.50:992][453]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.11.03-12.38.51:219][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.11.03-12.38.51:788][462]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.11.03-12.38.51:824][462]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Greybox_Auto15C58D5934885BB34865C14BFA88C8759.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Autosaves/Game/Maps/Greybox/Greybox_Auto1.umap'
+[2020.11.03-12.38.51:825][462]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Greybox/Greybox' took 0.046
+[2020.11.03-12.38.51:825][462]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.046
+[2020.11.03-12.38.58:505][846]LightingResults: Warning: FullEnv_Stage4 Object has overlapping UVs.
+[2020.11.03-12.38.58:505][846]LightingResults: FullEnv_Stage4 Lightmap UV are overlapping by 22.3%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.03-12.39.02:571][ 80]Job is a success!
+[2020.11.03-12.39.02:818][ 81]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.033s
+[2020.11.03-12.39.02:818][ 81]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.11.03-12.39.02:819][ 81]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2020.11.03-12.39.02:820][ 81]LogVolumetricLightmapImport:      Bricks at depth
+[2020.11.03-12.39.02:820][ 81]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2020.11.03-12.39.02:820][ 81]LogVolumetricLightmapImport:          1: 17.1% covering 18.8% of volume
+[2020.11.03-12.39.02:820][ 81]LogVolumetricLightmapImport:          2: 81.4% covering 1.4% of volume
+[2020.11.03-12.39.02:820][ 81]LogVolumetricLightmapImport:      Bricks in each level
+[2020.11.03-12.39.02:820][ 81]LogVolumetricLightmapImport:          Greybox 			 70 bricks 	 100.0% (Persistent Level)
+[2020.11.03-12.39.02:833][ 81]LogLightmassSolver: Warning: Mapping not found for 72D8663043E5A97FE6323C97B9AB5A79
+[2020.11.03-12.39.02:833][ 81]LogLightmassSolver: Warning: Failed to find light for texture mapping: 72D8663043E5A97FE6323C97B9AB5A79
+[2020.11.03-12.39.02:905][ 81]LogLightmassSolver: Warning: Failed to find light for texture mapping: 72D8663043E5A97FE6323C97B9AB5A79
+[2020.11.03-12.39.02:906][ 81]LogLightmassSolver: Warning: Failed to find light for texture mapping: 72D8663043E5A97FE6323C97B9AB5A79
+[2020.11.03-12.39.02:906][ 81]LogLightmassSolver: Warning: Failed to find light for texture mapping: 72D8663043E5A97FE6323C97B9AB5A79
+[2020.11.03-12.39.02:907][ 81]LogLightmassSolver: Warning: Failed to find light for texture mapping: 72D8663043E5A97FE6323C97B9AB5A79
+[2020.11.03-12.39.02:907][ 81]LogLightmassSolver: Warning: Failed to find light for texture mapping: 72D8663043E5A97FE6323C97B9AB5A79
+[2020.11.03-12.39.02:908][ 81]LogLightmassSolver: Warning: Failed to find light for texture mapping: 72D8663043E5A97FE6323C97B9AB5A79
+[2020.11.03-12.39.02:908][ 81]LogLightmassSolver: Warning: Failed to find light for texture mapping: 72D8663043E5A97FE6323C97B9AB5A79
+[2020.11.03-12.39.02:909][ 81]LogLightmassSolver: Warning: Failed to find light for texture mapping: 72D8663043E5A97FE6323C97B9AB5A79
+[2020.11.03-12.39.03:170][ 81]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2020.11.03-12.39.03:170][ 81]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2020.11.03-12.39.03:170][ 81]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2020.11.03-12.39.03:170][ 81]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2020.11.03-12.39.03:170][ 81]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2020.11.03-12.39.03:170][ 81]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2020.11.03-12.39.03:170][ 81]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2020.11.03-12.39.03:170][ 81]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2020.11.03-12.39.03:170][ 81]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2020.11.03-12.39.03:170][ 81]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2020.11.03-12.39.03:170][ 81]Lightmass on DESKTOP-6J7CLT1: 11.2 sec total, 740 ms importing, 347 ms setup, 3.70 sec photons, 6.47 sec processing, 0 ms extra exporting [9/9 mappings]. Threads: 45.3 sec total, 11.3 sec processing.
+[2020.11.03-12.39.03:205][ 81]LogStaticLightingSystem: Greybox_BuiltData storing lightmap data for 9 meshes in 5 LightmapResourceClusters (1.8 Meshes per cluster).
+[2020.11.03-12.39.03:229][ 81]LogMaterial: Display: Material /Game/Models/Greybox/Environment/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2020.11.03-12.39.03:231][ 81]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.11.03-12.39.03:300][ 81]LogMaterial: Display: Material /Game/Models/Greybox/Environment/Mountain_2.Mountain_2 needed to have new flag set bUsedWithStaticLighting !
+[2020.11.03-12.39.03:302][ 81]LogMaterial: Display: Missing cached shader map for material Mountain_2, compiling. 
+[2020.11.03-12.39.03:321][ 81]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2020.11.03-12.39.03:321][ 81]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2020.11.03-12.39.03:321][ 81]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.11.03-12.39.03:321][ 81]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.11.03-12.39.03:321][ 81]LogMaterial: Display: Material /Game/Models/Greybox/Environment/blinn1_ncl1_1.blinn1_ncl1_1 needed to have new flag set bUsedWithStaticLighting !
+[2020.11.03-12.39.03:323][ 81]LogMaterial: Display: Missing cached shader map for material blinn1_ncl1_1, compiling. 
+[2020.11.03-12.39.03:343][ 81]LogMaterial: Display: Material /Game/Models/Greybox/Environment/Mountain_3.Mountain_3 needed to have new flag set bUsedWithStaticLighting !
+[2020.11.03-12.39.03:344][ 81]LogMaterial: Display: Missing cached shader map for material Mountain_3, compiling. 
+[2020.11.03-12.39.03:364][ 81]LogMaterial: Display: Material /Game/Models/Greybox/Environment/blinn1.blinn1 needed to have new flag set bUsedWithStaticLighting !
+[2020.11.03-12.39.03:366][ 81]LogMaterial: Display: Missing cached shader map for material blinn1, compiling. 
+[2020.11.03-12.39.03:387][ 81]LogMaterial: Display: Material /Game/Models/Greybox/Environment/Mountain_1.Mountain_1 needed to have new flag set bUsedWithStaticLighting !
+[2020.11.03-12.39.03:388][ 81]LogMaterial: Display: Missing cached shader map for material Mountain_1, compiling. 
+[2020.11.03-12.39.03:420][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.11.03-12.39.03:453][ 81]LogStaticLightingSystem: Illumination: 26.5 sec (173 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2020.11.03-12.39.03:459][ 81]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 10 textures
+[2020.11.03-12.39.03:460][ 81]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.11.03-12.39.03:725][ 81]DumpUnbuiltLightIteractions
+[2020.11.03-12.39.03:725][ 81]Lights with unbuilt interactions: 0
+[2020.11.03-12.39.03:725][ 81]
+[2020.11.03-12.39.03:725][ 81]Primitives with unbuilt interactions: 0
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 120
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 110
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 100
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 90
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 80
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 70
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 50
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 40
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.11.03-12.39.20:477][ 81]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.11.03-12.39.20:515][ 82]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.03-12.39.20:516][ 82]MapCheck: New page: Greybox - 3 nov. 2020 14:39:20
+[2020.11.03-12.39.20:549][ 82]MapCheck: Warning: FullEnv_Bridge_10 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.39.20:549][ 82]MapCheck: Warning: FullEnv_Stage1_12 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.39.20:549][ 82]MapCheck: Warning: FullEnv_Stage2_14 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.39.20:549][ 82]MapCheck: Warning: FullEnv_Stage3_16 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.39.20:549][ 82]MapCheck: Warning: FullEnv_Stage4_18 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.39.20:550][ 82]MapCheck: Warning: FullEnv_Stage5_20 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.39.20:550][ 82]MapCheck: Warning: FullEnv_Stage6_22 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.39.20:550][ 82]MapCheck: Warning: FullEnv_Stage7Final_24 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.39.20:550][ 82]MapCheck: Warning: FullEnv_woman_26 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.39.20:722][ 82]MapCheck: Map check complete: 0 Error(s), 9 Warning(s), took 206,52ms to complete.
+[2020.11.03-12.39.22:704][185]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.39.22:709][185]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.41.57:431][443]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.41.58:566][510]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.41.59:290][553]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.41.59:624][572]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.41.59:984][593]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.42.02:686][754]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.42.21:282][859]MapCheck: New page: Map Check
+[2020.11.03-12.42.21:299][859]LightingResults: New page: Lighting Build - 3 nov. 2020 14:42:21
+[2020.11.03-12.42.21:307][859]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.03-12.42.21:309][859]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.03-12.42.21:309][859]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.03-12.42.21:310][859]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.03-12.42.21:310][859]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3044
+[2020.11.03-12.42.25:967][859]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.03-12.42.25:967][859]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.03-12.42.25:967][859]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.03-12.42.25:967][859]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.03-12.42.25:967][859]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.03-12.42.26:104][859]LogEditorBuildUtils: Build time 0:04
+[2020.11.03-12.42.26:110][859]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer blinn1_ncl1_1, compiling. 
+[2020.11.03-12.42.26:112][859]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer blinn1_ncl1_1, compiling. 
+[2020.11.03-12.42.26:115][859]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mountain_3, compiling. 
+[2020.11.03-12.42.26:118][859]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mountain_3, compiling. 
+[2020.11.03-12.42.26:154][860]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.11.03-12.42.26:154][860]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.11.03-12.42.26:154][860]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.11.03-12.42.26:154][860]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.11.03-12.42.26:157][860]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2020.11.03-12.42.26:161][860]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2020.11.03-12.42.26:166][860]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mountain_2, compiling. 
+[2020.11.03-12.42.26:171][860]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mountain_2, compiling. 
+[2020.11.03-12.42.26:211][861]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mountain_1, compiling. 
+[2020.11.03-12.42.26:215][861]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mountain_1, compiling. 
+[2020.11.03-12.42.26:219][861]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer blinn1, compiling. 
+[2020.11.03-12.42.26:224][861]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer blinn1, compiling. 
+[2020.11.03-12.42.28:821][862]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2020.11.03-12.42.28:821][862]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.11.03-12.42.28:821][862]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.11.03-12.42.28:821][862]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.11.03-12.42.28:821][862]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.11.03-12.42.28:821][862]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.11.03-12.42.28:821][862]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.11.03-12.42.28:933][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.11.03-12.42.36:174][966]LightingResults: Warning: FullEnv_Stage4 Object has overlapping UVs.
+[2020.11.03-12.42.36:174][966]LightingResults: FullEnv_Stage4 Lightmap UV are overlapping by 22.3%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.03-12.42.40:133][ 25]Job is a success!
+[2020.11.03-12.42.40:353][ 26]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.018s
+[2020.11.03-12.42.40:353][ 26]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.11.03-12.42.40:353][ 26]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2020.11.03-12.42.40:353][ 26]LogVolumetricLightmapImport:      Bricks at depth
+[2020.11.03-12.42.40:353][ 26]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2020.11.03-12.42.40:353][ 26]LogVolumetricLightmapImport:          1: 17.4% covering 18.8% of volume
+[2020.11.03-12.42.40:353][ 26]LogVolumetricLightmapImport:          2: 81.2% covering 1.4% of volume
+[2020.11.03-12.42.40:353][ 26]LogVolumetricLightmapImport:      Bricks in each level
+[2020.11.03-12.42.40:353][ 26]LogVolumetricLightmapImport:          Greybox 			 69 bricks 	 100.0% (Persistent Level)
+[2020.11.03-12.42.40:515][ 26]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 128X128)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 128X128)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 32X32)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 64X64)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 64X64)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X64)
+[2020.11.03-12.42.40:516][ 26]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 256X64)
+[2020.11.03-12.42.40:516][ 26]Lightmass on DESKTOP-6J7CLT1: 11.0 sec total, 741 ms importing, 329 ms setup, 3.59 sec photons, 6.39 sec processing, 0 ms extra exporting [9/9 mappings]. Threads: 44.7 sec total, 11.3 sec processing.
+[2020.11.03-12.42.40:552][ 26]LogStaticLightingSystem: Greybox_BuiltData storing lightmap data for 9 meshes in 5 LightmapResourceClusters (1.8 Meshes per cluster).
+[2020.11.03-12.42.40:566][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.11.03-12.42.40:632][ 26]LogStaticLightingSystem: Illumination: 19.2 sec (58 ms encoding lightmaps, 50 ms encoding shadowmaps)
+[2020.11.03-12.42.40:632][ 26]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 10 textures
+[2020.11.03-12.42.40:632][ 26]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 5 textures
+[2020.11.03-12.42.40:979][ 26]DumpUnbuiltLightIteractions
+[2020.11.03-12.42.40:979][ 26]Lights with unbuilt interactions: 0
+[2020.11.03-12.42.40:979][ 26]
+[2020.11.03-12.42.40:979][ 26]Primitives with unbuilt interactions: 0
+[2020.11.03-12.42.41:052][ 27]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.03-12.42.41:052][ 27]MapCheck: New page: Greybox - 3 nov. 2020 14:42:41
+[2020.11.03-12.42.41:052][ 27]MapCheck: Warning: FullEnv_Bridge_10 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.42.41:052][ 27]MapCheck: Warning: FullEnv_Stage1_12 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.42.41:052][ 27]MapCheck: Warning: FullEnv_Stage2_14 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.42.41:052][ 27]MapCheck: Warning: FullEnv_Stage3_16 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.42.41:052][ 27]MapCheck: Warning: FullEnv_Stage4_18 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.42.41:052][ 27]MapCheck: Warning: FullEnv_Stage5_20 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.42.41:052][ 27]MapCheck: Warning: FullEnv_Stage6_22 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.42.41:053][ 27]MapCheck: Warning: FullEnv_Stage7Final_24 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.42.41:053][ 27]MapCheck: Warning: FullEnv_woman_26 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.42.41:053][ 27]MapCheck: Map check complete: 0 Error(s), 9 Warning(s), took 0,723ms to complete.
+[2020.11.03-12.42.57:836][218]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.42.57:841][218]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.43.12:364][ 82]MapCheck: New page: Map Check
+[2020.11.03-12.43.12:378][ 82]LightingResults: New page: Lighting Build - 3 nov. 2020 14:43:12
+[2020.11.03-12.43.12:384][ 82]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.03-12.43.12:388][ 82]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.03-12.43.12:388][ 82]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.03-12.43.12:389][ 82]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.03-12.43.12:389][ 82]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3044
+[2020.11.03-12.43.16:902][ 82]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.03-12.43.16:902][ 82]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.03-12.43.16:902][ 82]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.03-12.43.16:902][ 82]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.03-12.43.16:902][ 82]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.03-12.43.16:985][ 82]LogEditorBuildUtils: Build time 0:04
+[2020.11.03-12.43.17:085][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.11.03-12.43.24:073][473]LightingResults: Warning: FullEnv_Stage4 Object has overlapping UVs.
+[2020.11.03-12.43.24:073][473]LightingResults: FullEnv_Stage4 Lightmap UV are overlapping by 22.3%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.03-12.43.28:073][703]Job is a success!
+[2020.11.03-12.43.28:307][704]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.019s
+[2020.11.03-12.43.28:307][704]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.11.03-12.43.28:307][704]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2020.11.03-12.43.28:307][704]LogVolumetricLightmapImport:      Bricks at depth
+[2020.11.03-12.43.28:307][704]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2020.11.03-12.43.28:307][704]LogVolumetricLightmapImport:          1: 16.9% covering 18.8% of volume
+[2020.11.03-12.43.28:307][704]LogVolumetricLightmapImport:          2: 81.7% covering 1.4% of volume
+[2020.11.03-12.43.28:307][704]LogVolumetricLightmapImport:      Bricks in each level
+[2020.11.03-12.43.28:307][704]LogVolumetricLightmapImport:          Greybox 			 71 bricks 	 100.0% (Persistent Level)
+[2020.11.03-12.43.28:432][704]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2020.11.03-12.43.28:432][704]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2020.11.03-12.43.28:432][704]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2020.11.03-12.43.28:432][704]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2020.11.03-12.43.28:432][704]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2020.11.03-12.43.28:432][704]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2020.11.03-12.43.28:432][704]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2020.11.03-12.43.28:432][704]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2020.11.03-12.43.28:433][704]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2020.11.03-12.43.28:433][704]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2020.11.03-12.43.28:433][704]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 64X64)
+[2020.11.03-12.43.28:433][704]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
+[2020.11.03-12.43.28:433][704]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 64X64)
+[2020.11.03-12.43.28:433][704]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 128X64)
+[2020.11.03-12.43.28:433][704]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 256X64)
+[2020.11.03-12.43.28:433][704]Lightmass on DESKTOP-6J7CLT1: 10.8 sec total, 715 ms importing, 325 ms setup, 3.65 sec photons, 6.13 sec processing, 0 ms extra exporting [9/9 mappings]. Threads: 42.9 sec total, 10.7 sec processing.
+[2020.11.03-12.43.28:443][704]LogStaticLightingSystem: Greybox_BuiltData storing lightmap data for 9 meshes in 5 LightmapResourceClusters (1.8 Meshes per cluster).
+[2020.11.03-12.43.28:459][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.11.03-12.43.28:552][704]LogStaticLightingSystem: Illumination: 16.0 sec (57 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2020.11.03-12.43.28:552][704]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 10 textures
+[2020.11.03-12.43.28:552][704]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 5 textures
+[2020.11.03-12.43.28:910][704]DumpUnbuiltLightIteractions
+[2020.11.03-12.43.28:910][704]Lights with unbuilt interactions: 0
+[2020.11.03-12.43.28:910][704]
+[2020.11.03-12.43.28:910][704]Primitives with unbuilt interactions: 0
+[2020.11.03-12.43.28:987][705]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.03-12.43.28:987][705]MapCheck: New page: Greybox - 3 nov. 2020 14:43:28
+[2020.11.03-12.43.28:987][705]MapCheck: Warning: FullEnv_Bridge_10 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.43.28:987][705]MapCheck: Warning: FullEnv_Stage1_12 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.43.28:987][705]MapCheck: Warning: FullEnv_Stage2_14 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.43.28:987][705]MapCheck: Warning: FullEnv_Stage3_16 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.43.28:987][705]MapCheck: Warning: FullEnv_Stage4_18 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.43.28:987][705]MapCheck: Warning: FullEnv_Stage5_20 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.43.28:987][705]MapCheck: Warning: FullEnv_Stage6_22 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.43.28:987][705]MapCheck: Warning: FullEnv_Stage7Final_24 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.43.28:987][705]MapCheck: Warning: FullEnv_woman_26 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.43.28:987][705]MapCheck: Map check complete: 0 Error(s), 9 Warning(s), took 0,687ms to complete.
+[2020.11.03-12.43.30:487][779]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.43.30:492][779]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.44.17:749][580]MapCheck: New page: Map Check
+[2020.11.03-12.44.17:766][580]LightingResults: New page: Lighting Build - 3 nov. 2020 14:44:17
+[2020.11.03-12.44.17:773][580]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.03-12.44.17:775][580]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.03-12.44.17:775][580]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.03-12.44.17:775][580]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.03-12.44.17:775][580]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3044
+[2020.11.03-12.44.22:291][580]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.03-12.44.22:291][580]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.03-12.44.22:291][580]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.03-12.44.22:291][580]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.03-12.44.22:291][580]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.03-12.44.22:388][580]LogEditorBuildUtils: Build time 0:04
+[2020.11.03-12.44.22:476][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.11.03-12.44.27:031][828]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.44.30:083][961]LightingResults: Warning: FullEnv_Stage4 Object has overlapping UVs.
+[2020.11.03-12.44.30:083][961]LightingResults: FullEnv_Stage4 Lightmap UV are overlapping by 22.3%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.03-12.44.33:391][986]Job is a success!
+[2020.11.03-12.44.33:570][987]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.022s
+[2020.11.03-12.44.33:570][987]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.11.03-12.44.33:570][987]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb
+[2020.11.03-12.44.33:570][987]LogVolumetricLightmapImport:      Bricks at depth
+[2020.11.03-12.44.33:570][987]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2020.11.03-12.44.33:570][987]LogVolumetricLightmapImport:          1: 16.7% covering 18.8% of volume
+[2020.11.03-12.44.33:570][987]LogVolumetricLightmapImport:          2: 81.9% covering 1.4% of volume
+[2020.11.03-12.44.33:570][987]LogVolumetricLightmapImport:      Bricks in each level
+[2020.11.03-12.44.33:570][987]LogVolumetricLightmapImport:          Greybox 			 72 bricks 	 100.0% (Persistent Level)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 128X128)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 128X128)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 64X64)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 32X32)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 64X64)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 128X64)
+[2020.11.03-12.44.33:694][987]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 256X64)
+[2020.11.03-12.44.33:694][987]Lightmass on DESKTOP-6J7CLT1: 10.7 sec total, 719 ms importing, 345 ms setup, 3.81 sec photons, 5.83 sec processing, 0 ms extra exporting [9/9 mappings]. Threads: 40.8 sec total, 10.9 sec processing.
+[2020.11.03-12.44.33:701][987]LogStaticLightingSystem: Greybox_BuiltData storing lightmap data for 9 meshes in 5 LightmapResourceClusters (1.8 Meshes per cluster).
+[2020.11.03-12.44.33:715][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.11.03-12.44.33:814][987]LogStaticLightingSystem: Illumination: 15.9 sec (56 ms encoding lightmaps, 6 ms encoding shadowmaps)
+[2020.11.03-12.44.33:814][987]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 10 textures
+[2020.11.03-12.44.33:814][987]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 5 textures
+[2020.11.03-12.44.34:299][987]DumpUnbuiltLightIteractions
+[2020.11.03-12.44.34:299][987]Lights with unbuilt interactions: 0
+[2020.11.03-12.44.34:299][987]
+[2020.11.03-12.44.34:299][987]Primitives with unbuilt interactions: 0
+[2020.11.03-12.44.34:359][988]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.03-12.44.34:360][988]MapCheck: New page: Greybox - 3 nov. 2020 14:44:34
+[2020.11.03-12.44.34:360][988]MapCheck: Warning: FullEnv_Bridge_10 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.44.34:360][988]MapCheck: Warning: FullEnv_Stage1_12 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.44.34:360][988]MapCheck: Warning: FullEnv_Stage2_14 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.44.34:360][988]MapCheck: Warning: FullEnv_Stage3_16 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.44.34:361][988]MapCheck: Warning: FullEnv_Stage4_18 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.44.34:361][988]MapCheck: Warning: FullEnv_Stage5_20 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.44.34:361][988]MapCheck: Warning: FullEnv_Stage6_22 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.44.34:361][988]MapCheck: Warning: FullEnv_Stage7Final_24 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.44.34:361][988]MapCheck: Warning: FullEnv_woman_26 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.44.34:361][988]MapCheck: Map check complete: 0 Error(s), 9 Warning(s), took 1,496ms to complete.
+[2020.11.03-12.45.33:708][777]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.45.33:713][777]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.47.53:428][200]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.47.54:311][252]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.50.38:614][258]Cmd: TRANSACTION UNDO
+[2020.11.03-12.50.38:614][258]LogEditorTransaction: Undo Edit Fog Height Falloff
+[2020.11.03-12.50.43:429][530]Cmd: TRANSACTION UNDO
+[2020.11.03-12.50.43:429][530]LogEditorTransaction: Undo Edit Fog Height Offset
+[2020.11.03-12.50.43:993][547]Cmd: TRANSACTION UNDO
+[2020.11.03-12.50.43:993][547]LogEditorTransaction: Undo Edit Fog Density
+[2020.11.03-12.50.50:039][909]Cmd: TRANSACTION UNDO
+[2020.11.03-12.50.50:039][909]LogEditorTransaction: Undo Edit Start Distance
+[2020.11.03-12.50.53:674][111]Cmd: TRANSACTION UNDO
+[2020.11.03-12.50.53:674][111]LogEditorTransaction: Undo Edit Fog Cutoff Distance
+[2020.11.03-12.50.55:623][211]Cmd: TRANSACTION UNDO
+[2020.11.03-12.50.55:623][211]LogEditorTransaction: Undo Edit Fog Cutoff Distance
+[2020.11.03-12.51.15:911][780]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2020.11.03-12.51.16:979][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FullEnv_Stage11)
+[2020.11.03-12.51.31:062][679]LogRenderer: Reallocating scene render targets to support 680x704 Format 10 NumSamples 1 (Frame:39004).
+[2020.11.03-12.52.37:561][638]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.03-12.52.49:458][331]MapCheck: New page: Map Check
+[2020.11.03-12.52.49:474][331]LightingResults: New page: Lighting Build - 3 nov. 2020 14:52:49
+[2020.11.03-12.52.49:481][331]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.03-12.52.49:483][331]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.03-12.52.49:483][331]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.03-12.52.49:484][331]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.03-12.52.49:484][331]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3044
+[2020.11.03-12.52.53:999][331]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.03-12.52.53:999][331]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.03-12.52.53:999][331]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.03-12.52.53:999][331]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.03-12.52.53:999][331]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.03-12.52.54:132][331]LogEditorBuildUtils: Build time 0:04
+[2020.11.03-12.52.54:241][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.11.03-12.53.00:934][708]LightingResults: Warning: FullEnv_Stage4 Object has overlapping UVs.
+[2020.11.03-12.53.00:934][708]LightingResults: FullEnv_Stage4 Lightmap UV are overlapping by 22.3%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.03-12.53.04:541][920]Job is a success!
+[2020.11.03-12.53.04:763][921]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.016s
+[2020.11.03-12.53.04:763][921]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.11.03-12.53.04:763][921]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2020.11.03-12.53.04:763][921]LogVolumetricLightmapImport:      Bricks at depth
+[2020.11.03-12.53.04:763][921]LogVolumetricLightmapImport:          0: 1.5% covering 100.0% of volume
+[2020.11.03-12.53.04:763][921]LogVolumetricLightmapImport:          1: 17.9% covering 18.8% of volume
+[2020.11.03-12.53.04:763][921]LogVolumetricLightmapImport:          2: 80.6% covering 1.3% of volume
+[2020.11.03-12.53.04:763][921]LogVolumetricLightmapImport:      Bricks in each level
+[2020.11.03-12.53.04:763][921]LogVolumetricLightmapImport:          Greybox 			 67 bricks 	 100.0% (Persistent Level)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (G8, 32X32)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 64X64)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (G8, 64X64)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 128X64)
+[2020.11.03-12.53.04:875][921]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (G8, 256X64)
+[2020.11.03-12.53.04:875][921]Lightmass on DESKTOP-6J7CLT1: 10.1 sec total, 774 ms importing, 317 ms setup, 3.52 sec photons, 5.52 sec processing, 0 ms extra exporting [9/9 mappings]. Threads: 38.6 sec total, 10.1 sec processing.
+[2020.11.03-12.53.04:884][921]LogStaticLightingSystem: Greybox_BuiltData storing lightmap data for 9 meshes in 5 LightmapResourceClusters (1.8 Meshes per cluster).
+[2020.11.03-12.53.04:899][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.11.03-12.53.04:961][921]LogStaticLightingSystem: Illumination: 15.4 sec (57 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2020.11.03-12.53.04:962][921]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 10 textures
+[2020.11.03-12.53.04:962][921]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 5 textures
+[2020.11.03-12.53.05:007][921]DumpUnbuiltLightIteractions
+[2020.11.03-12.53.05:007][921]Lights with unbuilt interactions: 0
+[2020.11.03-12.53.05:007][921]
+[2020.11.03-12.53.05:007][921]Primitives with unbuilt interactions: 0
+[2020.11.03-12.53.05:166][922]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.03-12.53.05:166][922]MapCheck: New page: Greybox - 3 nov. 2020 14:53:05
+[2020.11.03-12.53.05:166][922]MapCheck: Warning: FullEnv_Bridge_10 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.05:166][922]MapCheck: Warning: FullEnv_Stage1_12 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.05:166][922]MapCheck: Warning: FullEnv_Stage2_14 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.05:166][922]MapCheck: Warning: FullEnv_Stage3_16 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.05:166][922]MapCheck: Warning: FullEnv_Stage4_18 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.05:166][922]MapCheck: Warning: FullEnv_Stage5_20 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.05:167][922]MapCheck: Warning: FullEnv_Stage6_22 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.05:167][922]MapCheck: Warning: FullEnv_Stage7Final_24 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.05:167][922]MapCheck: Warning: FullEnv_woman_26 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.05:167][922]MapCheck: Map check complete: 0 Error(s), 9 Warning(s), took 1,219ms to complete.
+[2020.11.03-12.53.07:781][ 46]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.53.07:788][ 46]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.53.16:968][583]MapCheck: New page: Map Check
+[2020.11.03-12.53.16:978][583]LightingResults: New page: Lighting Build - 3 nov. 2020 14:53:16
+[2020.11.03-12.53.16:985][583]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.03-12.53.16:986][583]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.03-12.53.16:986][583]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.03-12.53.16:986][583]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.03-12.53.16:986][583]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3044
+[2020.11.03-12.53.21:503][583]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.03-12.53.21:503][583]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.03-12.53.21:503][583]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.03-12.53.21:503][583]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.03-12.53.21:503][583]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.03-12.53.21:595][583]LogEditorBuildUtils: Build time 0:04
+[2020.11.03-12.53.21:788][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.11.03-12.53.21:843][584]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Greybox_Auto2173647AD4D2F8FEDAF19D796FD180678.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Autosaves/Game/Maps/Greybox/Greybox_Auto2.umap'
+[2020.11.03-12.53.21:844][584]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Greybox/Greybox' took 0.066
+[2020.11.03-12.53.21:844][584]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.066
+[2020.11.03-12.53.21:844][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Greybox/Environment/blinn1_ncl1_1] ([1] browsable assets)...
+[2020.11.03-12.53.21:866][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Greybox/Environment/blinn1_ncl1_1.blinn1_ncl1_1]
+[2020.11.03-12.53.21:866][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Greybox/Environment/blinn1_ncl1_1]
+[2020.11.03-12.53.21:887][584]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/blinn1_ncl1_1_Auto231F438104BDB954BCCC5F38881EB75EA.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Autosaves/Game/Models/Greybox/Environment/blinn1_ncl1_1_Auto2.uasset'
+[2020.11.03-12.53.21:888][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Greybox/Environment/lambert1] ([1] browsable assets)...
+[2020.11.03-12.53.21:899][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Greybox/Environment/lambert1.lambert1]
+[2020.11.03-12.53.21:899][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Greybox/Environment/lambert1]
+[2020.11.03-12.53.21:977][584]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/lambert1_Auto2C483D4FD45CEED045EA1A7A9C1FD75AF.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Autosaves/Game/Models/Greybox/Environment/lambert1_Auto2.uasset'
+[2020.11.03-12.53.21:978][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Greybox/Environment/Mountain_3] ([1] browsable assets)...
+[2020.11.03-12.53.21:991][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Greybox/Environment/Mountain_3.Mountain_3]
+[2020.11.03-12.53.21:991][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Greybox/Environment/Mountain_3]
+[2020.11.03-12.53.22:007][584]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Mountain_3_Auto2821E04A64761913320292B8A0847C3D8.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Autosaves/Game/Models/Greybox/Environment/Mountain_3_Auto2.uasset'
+[2020.11.03-12.53.22:008][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Greybox/Environment/blinn1] ([1] browsable assets)...
+[2020.11.03-12.53.22:019][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Greybox/Environment/blinn1.blinn1]
+[2020.11.03-12.53.22:019][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Greybox/Environment/blinn1]
+[2020.11.03-12.53.22:044][584]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/blinn1_Auto2F0BBCBAF4B73D594BE1D8B9624719889.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Autosaves/Game/Models/Greybox/Environment/blinn1_Auto2.uasset'
+[2020.11.03-12.53.22:044][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Greybox/Environment/Mountain_1] ([1] browsable assets)...
+[2020.11.03-12.53.22:055][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Greybox/Environment/Mountain_1.Mountain_1]
+[2020.11.03-12.53.22:055][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Greybox/Environment/Mountain_1]
+[2020.11.03-12.53.22:074][584]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Mountain_1_Auto22F8CB35244EC76DF9FA5D4A8D0FFFBAD.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Autosaves/Game/Models/Greybox/Environment/Mountain_1_Auto2.uasset'
+[2020.11.03-12.53.22:075][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Greybox/Environment/Mountain_2] ([1] browsable assets)...
+[2020.11.03-12.53.22:087][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Greybox/Environment/Mountain_2.Mountain_2]
+[2020.11.03-12.53.22:087][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Greybox/Environment/Mountain_2]
+[2020.11.03-12.53.22:103][584]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Mountain_2_Auto2CB512E174D153624E55DCAABDE635312.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Autosaves/Game/Models/Greybox/Environment/Mountain_2_Auto2.uasset'
+[2020.11.03-12.53.22:104][584]LogFileHelpers: Auto-saving content packages took 0.260
+[2020.11.03-12.53.22:217][585]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.11.03-12.53.28:862][827]LightingResults: Warning: FullEnv_Stage4 Object has overlapping UVs.
+[2020.11.03-12.53.28:862][827]LightingResults: FullEnv_Stage4 Lightmap UV are overlapping by 22.3%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.03-12.53.32:211][837]Job is a success!
+[2020.11.03-12.53.32:688][838]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.016s
+[2020.11.03-12.53.32:688][838]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.11.03-12.53.32:688][838]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2020.11.03-12.53.32:688][838]LogVolumetricLightmapImport:      Bricks at depth
+[2020.11.03-12.53.32:688][838]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2020.11.03-12.53.32:688][838]LogVolumetricLightmapImport:          1: 17.1% covering 18.8% of volume
+[2020.11.03-12.53.32:688][838]LogVolumetricLightmapImport:          2: 81.4% covering 1.4% of volume
+[2020.11.03-12.53.32:688][838]LogVolumetricLightmapImport:      Bricks in each level
+[2020.11.03-12.53.32:688][838]LogVolumetricLightmapImport:          Greybox 			 70 bricks 	 100.0% (Persistent Level)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 128X128)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 128X128)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (G8, 32X32)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (G8, 64X64)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (G8, 64X64)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (G8, 128X64)
+[2020.11.03-12.53.32:784][838]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (G8, 256X64)
+[2020.11.03-12.53.32:784][838]Lightmass on DESKTOP-6J7CLT1: 10.1 sec total, 745 ms importing, 323 ms setup, 3.69 sec photons, 5.31 sec processing, 0 ms extra exporting [9/9 mappings]. Threads: 37.1 sec total, 8.91 sec processing.
+[2020.11.03-12.53.32:792][838]LogStaticLightingSystem: Greybox_BuiltData storing lightmap data for 9 meshes in 5 LightmapResourceClusters (1.8 Meshes per cluster).
+[2020.11.03-12.53.32:806][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.11.03-12.53.32:838][838]LogStaticLightingSystem: Illumination: 15.5 sec (55 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2020.11.03-12.53.32:838][838]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 10 textures
+[2020.11.03-12.53.32:838][838]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 5 textures
+[2020.11.03-12.53.33:509][838]DumpUnbuiltLightIteractions
+[2020.11.03-12.53.33:509][838]Lights with unbuilt interactions: 0
+[2020.11.03-12.53.33:509][838]
+[2020.11.03-12.53.33:509][838]Primitives with unbuilt interactions: 0
+[2020.11.03-12.53.33:550][839]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.03-12.53.33:550][839]MapCheck: New page: Greybox - 3 nov. 2020 14:53:33
+[2020.11.03-12.53.33:550][839]MapCheck: Warning: FullEnv_Bridge_10 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.33:550][839]MapCheck: Warning: FullEnv_Stage1_12 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.33:550][839]MapCheck: Warning: FullEnv_Stage2_14 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.33:550][839]MapCheck: Warning: FullEnv_Stage3_16 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.33:550][839]MapCheck: Warning: FullEnv_Stage4_18 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.33:550][839]MapCheck: Warning: FullEnv_Stage5_20 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.33:550][839]MapCheck: Warning: FullEnv_Stage6_22 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.33:550][839]MapCheck: Warning: FullEnv_Stage7Final_24 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.33:550][839]MapCheck: Warning: FullEnv_woman_26 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.53.33:551][839]MapCheck: Map check complete: 0 Error(s), 9 Warning(s), took 0,767ms to complete.
+[2020.11.03-12.55.33:473][265]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.55.33:478][265]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.56.12:273][763]MapCheck: New page: Map Check
+[2020.11.03-12.56.12:292][763]LightingResults: New page: Lighting Build - 3 nov. 2020 14:56:12
+[2020.11.03-12.56.12:298][763]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.03-12.56.12:300][763]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.03-12.56.12:300][763]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.03-12.56.12:300][763]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.03-12.56.12:301][763]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3044
+[2020.11.03-12.56.16:813][763]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.03-12.56.16:813][763]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.03-12.56.16:813][763]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.03-12.56.16:813][763]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.03-12.56.16:813][763]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.03-12.56.16:950][763]LogEditorBuildUtils: Build time 0:04
+[2020.11.03-12.56.17:059][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.11.03-12.56.23:839][145]LightingResults: Warning: FullEnv_Stage4 Object has overlapping UVs.
+[2020.11.03-12.56.23:839][145]LightingResults: FullEnv_Stage4 Lightmap UV are overlapping by 22.3%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.03-12.56.27:468][358]Job is a success!
+[2020.11.03-12.56.27:661][359]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.015s
+[2020.11.03-12.56.27:661][359]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.11.03-12.56.27:661][359]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2020.11.03-12.56.27:661][359]LogVolumetricLightmapImport:      Bricks at depth
+[2020.11.03-12.56.27:661][359]LogVolumetricLightmapImport:          0: 1.5% covering 100.0% of volume
+[2020.11.03-12.56.27:661][359]LogVolumetricLightmapImport:          1: 18.2% covering 18.8% of volume
+[2020.11.03-12.56.27:661][359]LogVolumetricLightmapImport:          2: 80.3% covering 1.3% of volume
+[2020.11.03-12.56.27:661][359]LogVolumetricLightmapImport:      Bricks in each level
+[2020.11.03-12.56.27:661][359]LogVolumetricLightmapImport:          Greybox 			 66 bricks 	 100.0% (Persistent Level)
+[2020.11.03-12.56.27:757][359]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2020.11.03-12.56.27:757][359]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2020.11.03-12.56.27:757][359]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2020.11.03-12.56.27:757][359]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2020.11.03-12.56.27:757][359]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2020.11.03-12.56.27:757][359]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2020.11.03-12.56.27:757][359]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2020.11.03-12.56.27:757][359]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2020.11.03-12.56.27:757][359]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2020.11.03-12.56.27:757][359]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2020.11.03-12.56.27:757][359]LogTexture: Display: Building textures: ShadowMapTexture2D_27 (G8, 64X64)
+[2020.11.03-12.56.27:758][359]LogTexture: Display: Building textures: ShadowMapTexture2D_29 (G8, 32X32)
+[2020.11.03-12.56.27:758][359]LogTexture: Display: Building textures: ShadowMapTexture2D_28 (G8, 64X64)
+[2020.11.03-12.56.27:758][359]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (G8, 128X64)
+[2020.11.03-12.56.27:758][359]LogTexture: Display: Building textures: ShadowMapTexture2D_26 (G8, 256X64)
+[2020.11.03-12.56.27:758][359]Lightmass on DESKTOP-6J7CLT1: 10.2 sec total, 763 ms importing, 328 ms setup, 3.59 sec photons, 5.49 sec processing, 0 ms extra exporting [9/9 mappings]. Threads: 38.4 sec total, 10.0 sec processing.
+[2020.11.03-12.56.27:766][359]LogStaticLightingSystem: Greybox_BuiltData storing lightmap data for 9 meshes in 5 LightmapResourceClusters (1.8 Meshes per cluster).
+[2020.11.03-12.56.27:781][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.11.03-12.56.27:843][359]LogStaticLightingSystem: Illumination: 15.4 sec (53 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2020.11.03-12.56.27:843][359]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 10 textures
+[2020.11.03-12.56.27:843][359]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 5 textures
+[2020.11.03-12.56.28:826][359]DumpUnbuiltLightIteractions
+[2020.11.03-12.56.28:826][359]Lights with unbuilt interactions: 0
+[2020.11.03-12.56.28:826][359]
+[2020.11.03-12.56.28:826][359]Primitives with unbuilt interactions: 0
+[2020.11.03-12.56.28:897][360]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.03-12.56.28:898][360]MapCheck: New page: Greybox - 3 nov. 2020 14:56:28
+[2020.11.03-12.56.28:898][360]MapCheck: Warning: FullEnv_Bridge_10 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.28:898][360]MapCheck: Warning: FullEnv_Stage1_12 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.28:898][360]MapCheck: Warning: FullEnv_Stage2_14 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.28:898][360]MapCheck: Warning: FullEnv_Stage3_16 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.28:898][360]MapCheck: Warning: FullEnv_Stage4_18 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.28:898][360]MapCheck: Warning: FullEnv_Stage5_20 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.28:898][360]MapCheck: Warning: FullEnv_Stage6_22 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.28:898][360]MapCheck: Warning: FullEnv_Stage7Final_24 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.28:898][360]MapCheck: Warning: FullEnv_woman_26 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.28:898][360]MapCheck: Map check complete: 0 Error(s), 9 Warning(s), took 0,728ms to complete.
+[2020.11.03-12.56.30:314][429]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.56.30:321][429]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.56.39:531][970]MapCheck: New page: Map Check
+[2020.11.03-12.56.39:548][970]LightingResults: New page: Lighting Build - 3 nov. 2020 14:56:39
+[2020.11.03-12.56.39:555][970]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.03-12.56.39:557][970]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.03-12.56.39:557][970]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.03-12.56.39:558][970]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.03-12.56.39:558][970]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3044
+[2020.11.03-12.56.44:073][970]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.03-12.56.44:073][970]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.03-12.56.44:073][970]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.03-12.56.44:073][970]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.03-12.56.44:073][970]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.03-12.56.44:163][970]LogEditorBuildUtils: Build time 0:04
+[2020.11.03-12.56.44:571][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.11.03-12.56.51:004][991]LightingResults: Warning: FullEnv_Stage4 Object has overlapping UVs.
+[2020.11.03-12.56.51:004][991]LightingResults: FullEnv_Stage4 Lightmap UV are overlapping by 22.3%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.03-12.56.54:349][  1]Job is a success!
+[2020.11.03-12.56.54:824][  2]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.018s
+[2020.11.03-12.56.54:824][  2]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.11.03-12.56.54:824][  2]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2020.11.03-12.56.54:824][  2]LogVolumetricLightmapImport:      Bricks at depth
+[2020.11.03-12.56.54:824][  2]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2020.11.03-12.56.54:824][  2]LogVolumetricLightmapImport:          1: 16.9% covering 18.8% of volume
+[2020.11.03-12.56.54:824][  2]LogVolumetricLightmapImport:          2: 81.7% covering 1.4% of volume
+[2020.11.03-12.56.54:824][  2]LogVolumetricLightmapImport:      Bricks in each level
+[2020.11.03-12.56.54:824][  2]LogVolumetricLightmapImport:          Greybox 			 71 bricks 	 100.0% (Persistent Level)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 128X128)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 128X128)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: ShadowMapTexture2D_32 (G8, 64X64)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: ShadowMapTexture2D_34 (G8, 32X32)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: ShadowMapTexture2D_30 (G8, 128X64)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: ShadowMapTexture2D_33 (G8, 64X64)
+[2020.11.03-12.56.54:948][  2]LogTexture: Display: Building textures: ShadowMapTexture2D_31 (G8, 256X64)
+[2020.11.03-12.56.54:948][  2]Lightmass on DESKTOP-6J7CLT1: 9.75 sec total, 722 ms importing, 280 ms setup, 3.29 sec photons, 5.43 sec processing, 0 ms extra exporting [9/9 mappings]. Threads: 38.0 sec total, 9.00 sec processing.
+[2020.11.03-12.56.54:958][  2]LogStaticLightingSystem: Greybox_BuiltData storing lightmap data for 9 meshes in 5 LightmapResourceClusters (1.8 Meshes per cluster).
+[2020.11.03-12.56.54:975][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.11.03-12.56.55:008][  2]LogStaticLightingSystem: Illumination: 15.1 sec (56 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2020.11.03-12.56.55:008][  2]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 10 textures
+[2020.11.03-12.56.55:008][  2]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 5 textures
+[2020.11.03-12.56.55:079][  2]DumpUnbuiltLightIteractions
+[2020.11.03-12.56.55:079][  2]Lights with unbuilt interactions: 0
+[2020.11.03-12.56.55:079][  2]
+[2020.11.03-12.56.55:079][  2]Primitives with unbuilt interactions: 0
+[2020.11.03-12.56.55:132][  3]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.03-12.56.55:132][  3]MapCheck: New page: Greybox - 3 nov. 2020 14:56:55
+[2020.11.03-12.56.55:132][  3]MapCheck: Warning: FullEnv_Bridge_10 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.55:133][  3]MapCheck: Warning: FullEnv_Stage1_12 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.55:133][  3]MapCheck: Warning: FullEnv_Stage2_14 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.55:133][  3]MapCheck: Warning: FullEnv_Stage3_16 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.55:133][  3]MapCheck: Warning: FullEnv_Stage4_18 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.55:133][  3]MapCheck: Warning: FullEnv_Stage5_20 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.55:133][  3]MapCheck: Warning: FullEnv_Stage6_22 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.55:133][  3]MapCheck: Warning: FullEnv_Stage7Final_24 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.55:133][  3]MapCheck: Warning: FullEnv_woman_26 Static mesh actor has NULL StaticMesh property 
+[2020.11.03-12.56.55:133][  3]MapCheck: Map check complete: 0 Error(s), 9 Warning(s), took 0,617ms to complete.
+[2020.11.03-12.57.07:837][129]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.57.07:843][129]LogSlate: Window 'Message Log' being destroyed
+[2020.11.03-12.57.58:014][628]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.11.03-12.57.58:040][628]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Greybox715DC3494F8CCA017870139F7583D1B6.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox.umap'
+[2020.11.03-12.57.58:080][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Greybox/Greybox_BuiltData" FILE="../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox_BuiltData.uasset" SILENT=true
+[2020.11.03-12.57.58:105][628]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Greybox_BuiltData117E5B39420CB105CFC57F832056C59C.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox_BuiltData.uasset'
+[2020.11.03-12.57.58:119][628]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.03-12.57.58:119][628]LogContentValidation: Display: Validating World /Game/Maps/Greybox/Greybox.Greybox
+[2020.11.03-12.57.58:119][628]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Greybox/Greybox_BuiltData.Greybox_BuiltData
+[2020.11.03-12.58.04:914][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2020.11.03-12.58.07:770][821]LogSlate: Window 'Save Content' being destroyed
+[2020.11.03-12.58.34:362][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.11.03-12.58.34:391][ 93]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/GreyboxD58E53874B9E3BDD1D9AD5B32317AB49.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox.umap'
+[2020.11.03-12.58.34:433][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Greybox/Greybox_BuiltData" FILE="../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox_BuiltData.uasset" SILENT=true
+[2020.11.03-12.58.34:499][ 93]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Greybox_BuiltData015EED27400CCEA7414C33B29C504296.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox_BuiltData.uasset'
+[2020.11.03-12.58.34:512][ 93]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.03-12.58.34:512][ 93]LogContentValidation: Display: Validating World /Game/Maps/Greybox/Greybox.Greybox
+[2020.11.03-12.58.34:512][ 93]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Greybox/Greybox_BuiltData.Greybox_BuiltData
+[2020.11.03-12.58.35:381][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.11.03-12.58.39:153][143]LogSlate: Window 'Save Content' being destroyed
+[2020.11.03-12.58.39:237][143]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/blinn1A72A0C014EEEEBC5AE9334A04C1C89F1.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Models/Greybox/Environment/blinn1.uasset'
+[2020.11.03-12.58.39:253][143]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/blinn1_ncl1_1AB13A0224A0502940296CCAF0B2AEED9.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Models/Greybox/Environment/blinn1_ncl1_1.uasset'
+[2020.11.03-12.58.39:269][143]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/lambert1BE6744E1404823368D0D39BE018C9C90.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Models/Greybox/Environment/lambert1.uasset'
+[2020.11.03-12.58.39:285][143]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Mountain_1975DACF74CE43D0D2D934DBB936D51AC.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Models/Greybox/Environment/Mountain_1.uasset'
+[2020.11.03-12.58.39:300][143]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Mountain_29CAF7446423DAAFD0ADDB38D68ED73EB.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Models/Greybox/Environment/Mountain_2.uasset'
+[2020.11.03-12.58.39:318][143]LogSavePackage: Moving '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Saved/Mountain_38D2D5D2C4CCCA6210AA6659FDFD70700.tmp' to '../../../../../../School/SSS/Project/UnrealVRLivePerformance/UnrealVR/Content/Models/Greybox/Environment/Mountain_3.uasset'
+[2020.11.03-12.58.39:453][143]LogSlate: Window 'UnrealVR - Unreal Editor' being destroyed
+[2020.11.03-12.58.39:590][143]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.03-12.58.39:590][143]LogContentValidation: Display: Validating Material /Game/Models/Greybox/Environment/blinn1.blinn1
+[2020.11.03-12.58.39:590][143]LogContentValidation: Display: Validating Material /Game/Models/Greybox/Environment/blinn1_ncl1_1.blinn1_ncl1_1
+[2020.11.03-12.58.39:590][143]LogContentValidation: Display: Validating Material /Game/Models/Greybox/Environment/lambert1.lambert1
+[2020.11.03-12.58.39:590][143]LogContentValidation: Display: Validating Material /Game/Models/Greybox/Environment/Mountain_1.Mountain_1
+[2020.11.03-12.58.39:590][143]LogContentValidation: Display: Validating Material /Game/Models/Greybox/Environment/Mountain_2.Mountain_2
+[2020.11.03-12.58.39:590][143]LogContentValidation: Display: Validating Material /Game/Models/Greybox/Environment/Mountain_3.Mountain_3
+[2020.11.03-12.58.39:602][144]Cmd: QUIT_EDITOR
+[2020.11.03-12.58.39:602][144]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.11.03-12.58.39:610][144]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.11.03-12.58.39:638][144]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-12.58.39:648][144]LogExit: Preparing to exit.
+[2020.11.03-12.58.39:989][144]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-12.58.39:989][144]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-12.58.40:006][144]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.11.03-12.58.40:010][144]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-12.58.40:010][144]LogExit: Editor shut down
+[2020.11.03-12.58.40:010][144]LogExit: Transaction tracking system shut down
+[2020.11.03-12.58.40:154][144]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022FE7E29940), frame # 74144
+[2020.11.03-12.58.40:154][144]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022FC75D9600), frame # 74144
+[2020.11.03-12.58.40:156][144]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000022FABABC340), frame # 74144
+[2020.11.03-12.58.40:156][144]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022FABA06AC0), frame # 74144
+[2020.11.03-12.58.40:156][144]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022FABA59E00), frame # 74144
+[2020.11.03-12.58.40:185][144]LogExit: Object subsystem successfully closed.
+[2020.11.03-12.58.40:209][144]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.11.03-12.58.40:221][144]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (794)
+[2020.11.03-12.58.40:221][144]LogModuleManager: Shutting down and abandoning module SceneOutliner (792)
+[2020.11.03-12.58.40:221][144]LogModuleManager: Shutting down and abandoning module AddContentDialog (790)
+[2020.11.03-12.58.40:221][144]LogModuleManager: Shutting down and abandoning module WidgetCarousel (789)
+[2020.11.03-12.58.40:221][144]LogModuleManager: Shutting down and abandoning module EditorWidgets (786)
+[2020.11.03-12.58.40:221][144]LogModuleManager: Shutting down and abandoning module CollectionManager (784)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module StatsViewer (782)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (780)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module FoliageEdit (778)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module LandscapeEditor (776)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module MeshPaintMode (774)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (772)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module ActorPickerMode (770)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (768)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (766)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module AutomationWorker (764)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module SteamVREditor (762)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module OculusMR (760)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module GooglePADEditor (758)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (756)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (754)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (752)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (750)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (748)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (746)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (744)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (742)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (740)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module WebMMedia (738)
+[2020.11.03-12.58.40:222][144]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (736)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (734)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module SequenceRecorder (733)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (730)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (728)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (726)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (724)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (722)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (720)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (718)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (716)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (714)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (712)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module PlanarCut (710)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module CharacterAI (708)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module TextureAlignMode (706)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module BspMode (704)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module PlacementMode (703)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module GeometryMode (700)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (698)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module SmartSnapping (696)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module SessionServices (694)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module MeshPaint (692)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module ViewportSnapping (690)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module ViewportInteraction (688)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module ClothPainter (686)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (685)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module LogVisualizer (682)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module IntroTutorials (680)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (679)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (676)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (674)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (672)
+[2020.11.03-12.58.40:223][144]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (671)
+[2020.11.03-12.58.41:191][144]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (668)
+[2020.11.03-12.58.41:191][144]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (666)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (664)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (662)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module TraceInsights (660)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module TraceServices (659)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (656)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (654)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module InputBindingEditor (652)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module MergeActors (650)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (648)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module LocalizationService (647)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module HardwareTargeting (644)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (642)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module UndoHistory (640)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module XmlParser (638)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module Blutility (636)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (634)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (633)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (630)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module SettingsEditor (628)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module ProjectLauncher (626)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module SessionFrontend (624)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module ProfilerClient (622)
+[2020.11.03-12.58.41:192][144]LogModuleManager: Shutting down and abandoning module DeviceManager (620)
+[2020.11.03-12.58.41:193][144]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (619)
+[2020.11.03-12.58.41:226][144]LogModuleManager: Shutting down and abandoning module AutomationController (616)
+[2020.11.03-12.58.41:226][144]LogModuleManager: Shutting down and abandoning module AutomationWindow (614)
+[2020.11.03-12.58.41:226][144]LogModuleManager: Shutting down and abandoning module Layers (612)
+[2020.11.03-12.58.41:226][144]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (610)
+[2020.11.03-12.58.41:226][144]LogModuleManager: Shutting down and abandoning module DetailCustomizations (608)
+[2020.11.03-12.58.41:226][144]LogModuleManager: Shutting down and abandoning module PackagesDialog (606)
+[2020.11.03-12.58.41:226][144]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (604)
+[2020.11.03-12.58.41:226][144]LogModuleManager: Shutting down and abandoning module Persona (602)
+[2020.11.03-12.58.41:226][144]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (601)
+[2020.11.03-12.58.41:226][144]LogModuleManager: Shutting down and abandoning module AnimGraph (599)
+[2020.11.03-12.58.41:226][144]LogModuleManager: Shutting down and abandoning module Kismet (596)
+[2020.11.03-12.58.41:226][144]LogModuleManager: Shutting down and abandoning module KismetWidgets (595)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module GraphEditor (592)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module StructViewer (590)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module ClassViewer (588)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module Toolbox (586)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module ModuleUI (584)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module OutputLog (582)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module GammaUI (580)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module Documentation (578)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module LiveCoding (576)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module LevelSequence (574)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (572)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module MovieScene (570)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (568)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module LauncherPlatform (566)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module AnalyticsET (564)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module PortalServices (562)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module PortalRpc (560)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module MessagingRpc (558)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (556)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module AudioMixerCore (555)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module AIModule (552)
+[2020.11.03-12.58.41:227][144]LogModuleManager: Shutting down and abandoning module GameplayDebugger (551)
+[2020.11.03-12.58.41:228][144]LogModuleManager: Shutting down and abandoning module AITestSuite (549)
+[2020.11.03-12.58.41:228][144]LogModuleManager: Shutting down and abandoning module NavigationSystem (547)
+[2020.11.03-12.58.41:228][144]LogModuleManager: Shutting down and abandoning module ProfilerService (544)
+[2020.11.03-12.58.41:429][144]LogModuleManager: Shutting down and abandoning module TaskGraph (542)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module ScreenshotTools (540)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module SynthesisEditor (538)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module Synthesis (536)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (534)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (532)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module OculusEditor (530)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module OculusInput (528)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (526)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module GooglePAD (524)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module EditableMesh (522)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (520)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module CableComponent (518)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module AudioCapture (516)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (515)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module AssetTags (512)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (510)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (508)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module AppleImageUtils (506)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module AndroidPermission (504)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (502)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (500)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module TemplateSequence (498)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (496)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (494)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (492)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (490)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (489)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (486)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (484)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MediaCompositing (482)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module ImgMedia (480)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module UIWS (478)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2020.11.03-12.58.41:430][144]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module UnrealVR (366)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.11.03-12.58.41:431][144]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.11.03-12.58.41:432][144]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.11.03-12.58.41:533][144]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.11.03-12.58.41:634][144]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.11.03-12.58.41:634][144]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.11.03-12.58.41:634][144]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.11.03-12.58.41:635][144]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.11.03-12.58.41:635][144]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.11.03-12.58.41:635][144]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.11.03-12.58.41:635][144]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.11.03-12.58.41:635][144]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.11.03-12.58.41:636][144]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.11.03-12.58.41:637][144]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.11.03-12.58.41:638][144]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.11.03-12.58.41:638][144]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.11.03-12.58.41:638][144]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.11.03-12.58.41:639][144]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.11.03-12.58.41:640][144]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.11.03-12.58.41:641][144]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.11.03-12.58.41:641][144]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.11.03-12.58.41:641][144]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.11.03-12.58.41:641][144]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.11.03-12.58.41:641][144]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.11.03-12.58.41:641][144]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.11.03-12.58.41:641][144]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.11.03-12.58.41:641][144]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.11.03-12.58.41:641][144]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.11.03-12.58.41:642][144]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.11.03-12.58.41:646][144]LogHMD: Freeing OpenVRDLLHandle.
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.11.03-12.58.41:646][144]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.11.03-12.58.41:647][144]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.11.03-12.58.41:647][144]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.11.03-12.58.41:680][144]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.11.03-12.58.41:680][144]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.11.03-12.58.41:680][144]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9CA194DF-4C76-96EB-0FE1-E681FE3C1330%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=e1972de14c69d0b7636ae78196a6810e%7Cc6a67b88786940599dc2dac6aa314b75%7Cca244113-b87f-48f5-ac3d-29d1c2b87c0b&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.11.03-12.58.41:684][144]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.11.03-12.58.41:685][144]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.11.03-12.58.41:687][144]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.11.03-12.58.41:688][144]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.11.03-12.58.41:688][144]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.11.03-12.58.41:688][144]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.11.03-12.58.41:688][144]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.11.03-12.58.41:688][144]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.11.03-12.58.41:689][144]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.11.03-12.58.41:689][144]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.11.03-12.58.41:689][144]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.11.03-12.58.41:689][144]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.11.03-12.58.41:689][144]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.11.03-12.58.41:689][144]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.11.03-12.58.41:689][144]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.11.03-12.58.41:689][144]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.11.03-12.58.41:689][144]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.11.03-12.58.41:689][144]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.11.03-12.58.41:689][144]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.11.03-12.58.41:689][144]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.11.03-12.58.41:690][144]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.11.03-12.58.41:690][144]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.11.03-12.58.41:690][144]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.11.03-12.58.41:690][144]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.11.03-12.58.41:690][144]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.11.03-12.58.41:690][144]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.11.03-12.58.41:690][144]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.11.03-12.58.41:690][144]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.11.03-12.58.41:690][144]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.11.03-12.58.41:690][144]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.11.03-12.58.41:690][144]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.11.03-12.58.41:690][144]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.11.03-12.58.41:690][144]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.11.03-12.58.41:692][144]LogD3D11RHI: Shutdown
+[2020.11.03-12.58.41:692][144]LogD3D11RHI: CleanupD3DDevice
+[2020.11.03-12.58.41:706][144]LogExit: Exiting.
+[2020.11.03-12.58.41:753][144]Log file closed, 11/03/20 13:58:41
