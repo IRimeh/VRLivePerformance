@@ -6,13 +6,13 @@
 /NAME:"UE4Editor-UnrealVR.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UnrealVREditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Interactable.cpp.obj"
-"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\InteractionHelper.cpp.obj"
-"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\UnrealVR.cpp.obj"
-"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Interactable.gen.cpp.obj"
-"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\InteractionHelper.gen.cpp.obj"
-"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\UnrealVR.init.gen.cpp.obj"
-"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Default.rc2.res"
-/OUT:"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\UE4Editor-UnrealVR.lib"
+"G:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UnrealVREditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"G:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Interactable.cpp.obj"
+"G:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\InteractionHelper.cpp.obj"
+"G:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\UnrealVR.cpp.obj"
+"G:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Interactable.gen.cpp.obj"
+"G:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\InteractionHelper.gen.cpp.obj"
+"G:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\UnrealVR.init.gen.cpp.obj"
+"G:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Default.rc2.res"
+/OUT:"G:\Mathieu te Stroete\School\ICT Schoolwork\Year 3\Minor\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\UE4Editor-UnrealVR.lib"
 /INCLUDE:IMPLEMENT_MODULE_UnrealVR
