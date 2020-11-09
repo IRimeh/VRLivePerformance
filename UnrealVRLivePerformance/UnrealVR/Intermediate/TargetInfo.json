@@ -7,7 +7,7 @@
 		},
 		{
 			"Name": "UnrealVREditor",
-			"Path": "G:\\Mathieu te Stroete\\School\\ICT Schoolwork\\Year 3\\Minor\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Target.cs",
+			"Path": "G:\\Mathieu te Stroete\\School\\ICT Schoolwork\\Year 3\\Minor\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Server.Target.cs",
 			"Type": "Editor"
 		}
 	]

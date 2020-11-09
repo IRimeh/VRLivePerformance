@@ -2,6 +2,7 @@
 	"SourceFiles": [
 		"G:\\Mathieu te Stroete\\School\\ICT Schoolwork\\Year 3\\Minor\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR\\UnrealVR.Build.cs",
 		"G:\\Mathieu te Stroete\\School\\ICT Schoolwork\\Year 3\\Minor\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR.Target.cs",
+		"G:\\Mathieu te Stroete\\School\\ICT Schoolwork\\Year 3\\Minor\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Server.Target.cs",
 		"G:\\Mathieu te Stroete\\School\\ICT Schoolwork\\Year 3\\Minor\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Target.cs"
 	],
 	"EngineVersion": "4.25.4"
