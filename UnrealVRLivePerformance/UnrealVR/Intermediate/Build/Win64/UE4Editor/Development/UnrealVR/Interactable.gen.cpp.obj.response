@@ -32,7 +32,7 @@
 /wd4244
 /wd4838
 /I .
-/I "C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Source\UnrealVR\Private"
+/I "C:\Users\student\Documents\Unreal Projects\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Source\UnrealVR\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -231,9 +231,9 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I "C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Inc\UnrealVR"
-/I "C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Source"
-/I "C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Source\UnrealVR\Public"
+/I "C:\Users\student\Documents\Unreal Projects\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Inc\UnrealVR"
+/I "C:\Users\student\Documents\Unreal Projects\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Source"
+/I "C:\Users\student\Documents\Unreal Projects\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Source\UnrealVR\Public"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -263,12 +263,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UnrealVREditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UnrealVREditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UnrealVREditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Inc\UnrealVR\Interactable.gen.cpp"
-/FI"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Definitions.UnrealVR.h"
-/Fo"C:\Users\Student 2020\Documents\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Interactable.gen.cpp.obj"
+/FI"C:\Users\student\Documents\Unreal Projects\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UnrealVREditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\student\Documents\Unreal Projects\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UnrealVREditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\student\Documents\Unreal Projects\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UnrealVREditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\student\Documents\Unreal Projects\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Inc\UnrealVR\Interactable.gen.cpp"
+/FI"C:\Users\student\Documents\Unreal Projects\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Definitions.UnrealVR.h"
+/Fo"C:\Users\student\Documents\Unreal Projects\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Interactable.gen.cpp.obj"
 /TP
 /GR-
 /W4
