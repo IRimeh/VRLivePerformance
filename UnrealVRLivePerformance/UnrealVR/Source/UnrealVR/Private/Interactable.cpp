@@ -51,6 +51,7 @@ void AInteractable::Grab(const USceneComponent* objectToAttachTo, const FVector 
 {
 	onGrab();
 	Mesh->SetSimulatePhysics(false);
+	Mesh->SetEnableGravity(false);
 
 	AttachToComponent(const_cast<USceneComponent*>(objectToAttachTo), FAttachmentTransformRules::KeepWorldTransform);
 	RootComponent->SetWorldLocation(grabLocation);
@@ -61,6 +62,7 @@ void AInteractable::Release()
 {
 	onRelease();
 	Mesh->SetSimulatePhysics(true);
+	Mesh->SetEnableGravity(true);
 
 	DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
 }
