@@ -1,8 +1,8 @@
-﻿Log file open, 11/11/20 14:16:43
+﻿Log file open, 11/16/20 14:06:02
 LogInit: Display: Running engine for game: UnrealVR
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.165143
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.185539
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -138,6 +138,7 @@ LogInit:  - BufferSize = 65536
 LogOnline: OSS: Creating online subsystem instance for: NULL
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
 LogInit: Build: ++UE4+Release-4.25-CL-13942748
 LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
@@ -147,7 +148,7 @@ LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  /Game/Maps/MainMap -server -game -windowed -log
+LogInit: Command Line:  -EpicPortal -epicusername=Rimeh_ -epicuserid=3620de3b46744791bae9bb86c3c88c80 -epiclocale=en
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
@@ -197,892 +198,813 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.11.11-13.16.44:468][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2020.11.11-13.16.44:468][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.11.11-13.16.44:468][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
-[2020.11.11-13.16.44:469][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.11.11-13.16.44:469][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
-[2020.11.11-13.16.44:470][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
-[2020.11.11-13.16.44:471][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.11.11-13.16.44:471][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.11.11-13.16.44:471][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.11.11-13.16.44:472][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.11.11-13.16.44:472][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.11.11-13.16.44:473][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.11.11-13.16.44:473][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.11.11-13.16.44:473][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.11.11-13.16.44:474][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.11.11-13.16.44:476][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.11.11-13.16.44:476][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.11.11-13.16.44:476][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.11.11-13.16.44:477][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.11.11-13.16.44:477][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.11.11-13.16.44:477][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
-[2020.11.11-13.16.44:478][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.11.11-13.16.44:478][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.11.11-13.16.44:479][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.11.11-13.16.44:479][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.11.11-13.16.44:480][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.11.11-13.16.44:480][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.11.11-13.16.44:480][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.11.11-13.16.44:481][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.11.11-13.16.44:481][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.11.11-13.16.44:481][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.11.11-13.16.44:482][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.11.11-13.16.44:482][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.11.11-13.16.44:483][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.11.11-13.16.44:483][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
-[2020.11.11-13.16.44:483][  0]LogConfig: Setting CVar [[net.MaxRepArraySize:8192]]
-[2020.11.11-13.16.44:484][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
-[2020.11.11-13.16.44:486][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:486][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.11-13.16.44:487][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.11-13.16.44:487][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:488][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.11-13.16.44:488][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:488][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.11-13.16.44:489][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.11-13.16.44:489][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.11-13.16.44:490][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.11-13.16.44:490][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.11-13.16.44:490][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.11-13.16.44:491][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.11-13.16.44:491][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.11-13.16.44:491][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.11-13.16.44:492][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.11-13.16.44:493][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.11-13.16.44:493][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.11-13.16.44:494][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.11-13.16.44:494][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.11-13.16.44:494][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.11-13.16.44:495][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.11-13.16.44:497][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.11-13.16.44:497][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.11-13.16.44:498][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:498][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.11-13.16.44:499][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.11-13.16.44:499][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.11-13.16.44:499][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.11-13.16.44:500][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.11-13.16.44:500][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.11-13.16.44:501][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.11-13.16.44:501][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.11-13.16.44:501][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.11-13.16.44:502][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.11-13.16.44:502][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.11-13.16.44:502][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.11-13.16.44:503][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.11-13.16.44:503][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.11-13.16.44:503][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.11-13.16.44:504][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.11-13.16.44:504][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.11-13.16.44:505][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.11-13.16.44:505][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.11-13.16.44:505][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.11-13.16.44:506][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.11-13.16.44:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.11-13.16.44:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.11-13.16.44:509][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.11-13.16.44:509][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.11-13.16.44:510][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.11-13.16.44:510][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.11-13.16.44:511][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.11-13.16.44:511][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.11-13.16.44:511][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.11-13.16.44:512][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:512][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.11-13.16.44:513][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.11-13.16.44:513][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.11-13.16.44:513][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.11-13.16.44:514][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.11-13.16.44:514][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.11-13.16.44:514][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.11-13.16.44:515][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.11-13.16.44:515][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.11-13.16.44:515][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:516][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.11-13.16.44:518][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.11-13.16.44:518][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.11-13.16.44:519][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.11-13.16.44:519][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.11-13.16.44:519][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.11-13.16.44:520][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.11-13.16.44:521][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.11-13.16.44:521][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.11-13.16.44:522][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.11-13.16.44:522][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.11-13.16.44:523][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.11-13.16.44:523][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.11-13.16.44:523][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.11-13.16.44:524][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.11-13.16.44:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.11-13.16.44:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.11-13.16.44:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.11-13.16.44:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.11-13.16.44:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.11-13.16.44:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.11-13.16.44:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.11-13.16.44:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.11-13.16.44:529][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.11-13.16.44:529][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.11-13.16.44:530][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.11-13.16.44:530][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:531][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.11-13.16.44:531][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.11-13.16.44:531][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:532][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.11-13.16.44:532][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.11-13.16.44:532][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.11-13.16.44:533][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.11-13.16.44:533][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.11-13.16.44:534][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.11-13.16.44:534][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.11-13.16.44:535][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.11-13.16.44:535][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.11.11-13.16.44:536][  0]LogHAL: Display: Platform has ~ 64 GB [68423581696 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.11.11-13.16.44:539][  0]LogInit: Going up to parent DeviceProfile []
-[2020.11.11-13.16.44:539][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:540][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.11-13.16.44:541][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.11-13.16.44:541][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:542][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.11-13.16.44:542][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:542][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.11-13.16.44:543][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.11-13.16.44:543][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.11-13.16.44:544][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.11-13.16.44:544][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.11-13.16.44:544][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.11-13.16.44:545][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.11-13.16.44:545][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.11-13.16.44:546][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.11-13.16.44:546][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.11-13.16.44:546][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.11-13.16.44:547][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.11-13.16.44:549][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.11-13.16.44:549][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.11-13.16.44:550][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.11-13.16.44:550][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.11-13.16.44:550][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.11-13.16.44:551][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.11-13.16.44:551][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:552][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.11-13.16.44:552][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.11-13.16.44:552][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.11-13.16.44:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.11-13.16.44:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.11-13.16.44:553][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.11-13.16.44:554][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.11-13.16.44:554][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.11-13.16.44:554][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.11-13.16.44:555][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.11-13.16.44:555][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.11-13.16.44:555][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.11-13.16.44:556][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.11-13.16.44:556][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.11-13.16.44:557][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.11-13.16.44:557][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.11-13.16.44:557][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.11-13.16.44:558][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.11-13.16.44:560][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.11-13.16.44:560][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.11-13.16.44:561][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.11-13.16.44:561][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.11-13.16.44:561][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.11-13.16.44:562][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.11-13.16.44:562][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.11-13.16.44:562][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.11-13.16.44:563][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.11-13.16.44:563][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.11-13.16.44:564][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.11-13.16.44:564][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.11-13.16.44:564][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:565][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.11-13.16.44:565][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.11-13.16.44:565][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.11-13.16.44:566][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.11-13.16.44:566][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.11-13.16.44:566][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.11-13.16.44:567][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.11-13.16.44:568][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.11-13.16.44:570][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.11-13.16.44:570][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:571][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.11-13.16.44:571][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.11-13.16.44:571][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.11-13.16.44:572][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.11-13.16.44:572][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.11-13.16.44:573][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.11-13.16.44:573][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.11-13.16.44:573][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.11-13.16.44:574][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.11-13.16.44:574][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.11-13.16.44:574][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.11-13.16.44:575][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.11-13.16.44:575][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.11-13.16.44:575][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.11-13.16.44:576][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.11-13.16.44:576][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.11-13.16.44:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.11-13.16.44:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.11-13.16.44:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.11-13.16.44:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.11-13.16.44:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.11-13.16.44:579][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.11-13.16.44:581][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.11-13.16.44:581][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.11-13.16.44:581][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.11-13.16.44:582][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.11-13.16.44:582][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:583][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.11-13.16.44:583][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.11-13.16.44:583][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
-[2020.11.11-13.16.44:584][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.11-13.16.44:584][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.11-13.16.44:585][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.11-13.16.44:585][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.11-13.16.44:585][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.11-13.16.44:586][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.11-13.16.44:586][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.11-13.16.44:587][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.11.11-13.16.44:587][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.11.11-13.16.44:587][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.11.11-13.16.44:588][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.11.11-13.16.44:588][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
-[2020.11.11-13.16.44:589][  0]LogInit: Computer: DESKTOP-S32ASB4
-[2020.11.11-13.16.44:589][  0]LogInit: User: Student2020
-[2020.11.11-13.16.44:589][  0]LogInit: CPU Page size=4096, Cores=8
-[2020.11.11-13.16.44:590][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.11.11-13.16.44:592][  0]LogMemory: Memory total: Physical=63.7GB (64GB approx)
-[2020.11.11-13.16.44:592][  0]LogMemory: Platform Memory Stats for Windows
-[2020.11.11-13.16.44:593][  0]LogMemory: Process Physical Memory: 116.78 MB used, 116.79 MB peak
-[2020.11.11-13.16.44:593][  0]LogMemory: Process Virtual Memory: 104.32 MB used, 104.32 MB peak
-[2020.11.11-13.16.44:593][  0]LogMemory: Physical Memory: 16358.31 MB used,  48895.50 MB free, 65253.81 MB total
-[2020.11.11-13.16.44:594][  0]LogMemory: Virtual Memory: 5141.62 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2020.11.11-13.16.44:599][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
-[2020.11.11-13.16.44:619][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.11.11-13.16.44:619][  0]LogInit: Using OS detected language (en-US).
-[2020.11.11-13.16.44:620][  0]LogInit: Using OS detected locale (en-US).
-[2020.11.11-13.16.44:622][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.11.11-13.16.45:027][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.11.11-13.16.45:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.11.11-13.16.45:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.11.11-13.16.45:048][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.11.11-13.16.45:049][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.11.11-13.16.45:055][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.11.11-13.16.45:104][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Intermediate/Shaders/WorkingDirectory/20772/).
-[2020.11.11-13.16.45:104][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Student 2020/AppData/Local/Temp/UnrealShaderWorkingDir/B02C4DF543F7B6A6F39DBAA5B8128297/'.
-[2020.11.11-13.16.45:105][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.11.11-13.16.45:106][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.11.11-13.16.45:106][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.11.11-13.16.45:537][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.11.11-13.16.45:596][  0]LogDerivedDataCache: Loaded boot cache 0.06s 90MB C:/Users/Student 2020/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.11-13.16.45:596][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Student 2020/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.11.11-13.16.45:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.11.11-13.16.45:598][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.11.11-13.16.45:598][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.11-13.16.45:599][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.11.11-13.16.45:609][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.11.11-13.16.45:609][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.11-13.16.45:610][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.11.11-13.16.45:611][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Student 2020/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.11.11-13.16.45:611][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.11.11-13.16.45:612][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.11.11-13.16.45:615][  0]LogInit: Using OS detected language (en-US).
-[2020.11.11-13.16.45:616][  0]LogInit: Using OS detected locale (en-US).
-[2020.11.11-13.16.45:616][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2020.11.11-13.16.45:616][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2020.11.11-13.16.45:618][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2020.11.11-13.16.45:621][  0]LogAssetRegistry: FAssetRegistry took 0.0017 seconds to start up
-[2020.11.11-13.16.45:815][  0]LogPackageLocalizationCache: Processed 21 localized package path(s) for 1 prioritized culture(s) in 0.027636 seconds
-[2020.11.11-13.16.45:858][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.11-13.16.45:888][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.11.11-13.16.45:888][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.11.11-13.16.45:889][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.11.11-13.16.45:890][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.11.11-13.16.45:890][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.11.11-13.16.45:902][  0]LogNetVersion: UnrealVR 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2192167523)
-[2020.11.11-13.16.45:988][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000018C4B643F00), frame # 0
-[2020.11.11-13.16.45:988][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018C4B65C7C0), frame # 0
-[2020.11.11-13.16.45:990][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018C4B700400), frame # 0
-[2020.11.11-13.16.46:047][  0]LogCollectionManager: Loaded 0 collections in 0.001564 seconds
-[2020.11.11-13.16.46:050][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Collections/' took 0.00s
-[2020.11.11-13.16.46:050][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Developers/Student2020/Collections/' took 0.00s
-[2020.11.11-13.16.46:051][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Collections/' took 0.00s
-[2020.11.11-13.16.46:051][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
-[2020.11.11-13.16.46:218][  0]LogSteamAudio: FSteamAudioModule Startup
-[2020.11.11-13.16.46:218][  0]LogSteamAudio: Display: Attempting to load ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll
-[2020.11.11-13.16.46:221][  0]LogSteamAudio: Display: Loaded ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll.
-[2020.11.11-13.16.46:233][  0]SourceControl: Source control is disabled
-[2020.11.11-13.16.46:234][  0]SourceControl: Source control is disabled
-[2020.11.11-13.16.46:242][  0]SourceControl: Source control is disabled
-[2020.11.11-13.16.46:398][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.11.11-13.16.46:413][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.11-13.16.46:413][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.11-13.16.46:445][  0]LogOcInput: OculusInput pre-init called
-[2020.11.11-13.16.46:460][  0]LogUObjectArray: 20207 objects as part of root set at end of initial load.
-[2020.11.11-13.16.46:460][  0]LogUObjectAllocator: 5385776 out of 0 bytes used by permanent object pool.
-[2020.11.11-13.16.46:461][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.11.11-13.16.46:490][  0]LogEngine: Initializing Engine...
-[2020.11.11-13.16.46:491][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.11.11-13.16.46:503][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.11.11-13.16.46:503][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.11.11-13.16.46:555][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Student 2020/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.11-13.16.46:561][  0]LogInit: Texture streaming: Disabled
-[2020.11.11-13.16.46:582][  0]LogInit: Display: Game Engine Initialized.
-[2020.11.11-13.16.46:582][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
-[2020.11.11-13.16.46:607][  0]LogInit: Display: Starting Game.
-[2020.11.11-13.16.46:608][  0]LogNet: Browse: /Game/Maps/MainMap?Name=Player
-[2020.11.11-13.16.46:609][  0]LogLoad: LoadMap: /Game/Maps/MainMap?Name=Player
-[2020.11.11-13.16.46:609][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2020.11.11-13.16.46:610][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.11.11-13.16.46:618][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
-[2020.11.11-13.16.46:656][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Menus/BP_Menu_Left.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
-[2020.11.11-13.16.46:658][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Menus/BP_Menu_Left.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
-[2020.11.11-13.16.46:659][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Menus/BP_Menu_Left.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
-[2020.11.11-13.16.46:659][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Menus/BP_Menu_Left.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
-[2020.11.11-13.16.46:661][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Gestures/Gesture2.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
-[2020.11.11-13.16.46:662][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Gestures/Gesture2.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
-[2020.11.11-13.16.46:662][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Gestures/Gesture2.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
-[2020.11.11-13.16.46:663][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Gestures/Gesture2.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
-[2020.11.11-13.16.46:842][  0]LogAIModule: Creating AISystem for world MainMap
-[2020.11.11-13.16.46:842][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018C44493200), frame # 0
-[2020.11.11-13.16.46:843][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018C42D6BEC0), frame # 0
-[2020.11.11-13.16.46:844][  0]LogLoad: Game class is 'MultiplayerGameMode_C'
-[2020.11.11-13.16.46:844][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2020.11.11-13.16.46:844][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
-[2020.11.11-13.16.46:845][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
-[2020.11.11-13.16.46:845][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 7777
-[2020.11.11-13.16.46:846][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.11.11-13.16.46:846][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
-[2020.11.11-13.16.46:847][  0]LogWorld: Bringing World /Game/Maps/MainMap.MainMap up for play (max tick rate 30) at 2020.11.11-14.16.46
-[2020.11.11-13.16.46:848][  0]LogWorld: Bringing up level for play took: 0.001038
-[2020.11.11-13.16.46:849][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2020.11.11-13.16.46:849][  0]LogLevel: ActivateLevel /Game/Maps/Greybox/Greybox 1 1 0
-[2020.11.11-13.16.46:849][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2020.11.11-13.16.46:850][  0]LogLoad: Took 0.240781 seconds to LoadMap(/Game/Maps/MainMap)
-[2020.11.11-13.16.46:857][  0]LogLoad: (Engine Initialization) Total time: 4.20 seconds
-[2020.11.11-13.16.46:857][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.11.11-13.16.47:546][ 17]LogBlueprint: Warning: [Compiler PersistentLevel.Greybox] Node  Unknown  is not referencing a valid level actor
-[2020.11.11-13.17.00:976][421]LogNet: NotifyAcceptingConnection accepted from: 145.76.27.46:53204
-[2020.11.11-13.17.00:976][421]LogHandshake: SendConnectChallenge. Timestamp: 14.117938, Cookie: 231183029133103035078084097085093255081064044071091240024125
-[2020.11.11-13.17.01:009][422]LogNet: NotifyAcceptingConnection accepted from: 145.76.27.46:53204
-[2020.11.11-13.17.01:009][422]LogHandshake: SendChallengeAck. InCookie: 231183029133103035078084097085093255081064044071091240024125
-[2020.11.11-13.17.01:010][422]LogNet: Server accepting post-challenge connection from: 145.76.27.46:53204
-[2020.11.11-13.17.01:011][422]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.11.11-13.17.01:011][422]LogNet: NotifyAcceptedConnection: Name: MainMap, TimeStamp: 11/11/20 14:17:01, [UNetConnection] RemoteAddr: 145.76.27.46:53204, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.11.11-13.17.01:012][422]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 145.76.27.46:53204, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.11.11-13.17.01:012][422]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/MainMap.MainMap: Accepted
-[2020.11.11-13.17.01:013][422]LogNet: Remote platform little endian=1
-[2020.11.11-13.17.01:013][422]LogNet: This platform little endian=1
-[2020.11.11-13.17.01:014][422]LogNetVersion: UnrealVR 1.0.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2250884227)
-[2020.11.11-13.17.01:042][423]LogNet: Login request: ?Name=DESKTOP-S32ASB4-4C9F869741BBA223BF6590A5072DE171 userId: NULL:DESKTOP-S32ASB4-4C9F869741BBA223BF6590A5072DE171 platform: NULL
-[2020.11.11-13.17.01:441][435]LogNet: Client netspeed is 10000
-[2020.11.11-13.17.01:441][435]LogNet: Join request: /Engine/Maps/Entry?Name=DESKTOP-S32ASB4-4C9F869741BBA223BF6590A5072DE171?SplitscreenCount=1
-[2020.11.11-13.17.01:442][435]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.11.11-13.17.01:454][435]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2020.11.11-13.17.01:454][435]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2020.11.11-13.17.01:455][435]LogNet: Join succeeded: DESKTOP-S32ASB4-4C9F
-[2020.11.11-13.17.18:782][957]LogNet: NotifyAcceptingConnection accepted from: 145.76.27.46:53392
-[2020.11.11-13.17.18:782][957]LogHandshake: SendConnectChallenge. Timestamp: 31.924128, Cookie: 038247254057031234201164142050233101239019235196150092123178
-[2020.11.11-13.17.18:815][958]LogNet: NotifyAcceptingConnection accepted from: 145.76.27.46:53392
-[2020.11.11-13.17.18:815][958]LogHandshake: SendChallengeAck. InCookie: 038247254057031234201164142050233101239019235196150092123178
-[2020.11.11-13.17.18:816][958]LogNet: Server accepting post-challenge connection from: 145.76.27.46:53392
-[2020.11.11-13.17.18:817][958]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.11.11-13.17.18:818][958]LogNet: NotifyAcceptedConnection: Name: MainMap, TimeStamp: 11/11/20 14:17:18, [UNetConnection] RemoteAddr: 145.76.27.46:53392, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.11.11-13.17.18:818][958]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 145.76.27.46:53392, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.11.11-13.17.18:819][958]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/MainMap.MainMap: Accepted
-[2020.11.11-13.17.18:820][958]LogNet: Remote platform little endian=1
-[2020.11.11-13.17.18:820][958]LogNet: This platform little endian=1
-[2020.11.11-13.17.18:849][959]LogNet: Login request: ?Name=DESKTOP-S32ASB4-F527758B418B467C39CE428080D193C7 userId: NULL:DESKTOP-S32ASB4-F527758B418B467C39CE428080D193C7 platform: NULL
-[2020.11.11-13.17.19:151][968]LogNet: Client netspeed is 10000
-[2020.11.11-13.17.19:151][968]LogNet: Join request: /Engine/Maps/Entry?Name=DESKTOP-S32ASB4-F527758B418B467C39CE428080D193C7?SplitscreenCount=1
-[2020.11.11-13.17.19:153][968]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.11.11-13.17.19:167][968]LogNet: Join succeeded: DESKTOP-S32ASB4-F527
-[2020.11.11-13.17.41:986][652]LogActor: Warning: GlowStick_C /Game/Maps/MainMap.MainMap:PersistentLevel.GlowStick_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2020.11.11-13.18.37:212][307]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
-[2020.11.11-13.18.37:212][307]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 145.76.27.46:53392, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-S32ASB4-F527758B418B467C39CE428080D193C7
-[2020.11.11-13.18.37:214][307]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 145.76.27.46:53392, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-S32ASB4-F527758B418B467C39CE428080D193C7, Channels: 18, Time: 2020.11.11-13.18.37
-[2020.11.11-13.18.37:214][307]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 145.76.27.46:53392, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-S32ASB4-F527758B418B467C39CE428080D193C7
-[2020.11.11-13.18.37:216][307]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
-[2020.11.11-13.18.37:222][307]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:224][307]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:225][307]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:226][307]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:252][308]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:254][308]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:255][308]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:256][308]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:284][309]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:286][309]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:287][309]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:287][309]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:319][310]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:321][310]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:322][310]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:323][310]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:350][311]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:352][311]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:353][311]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:353][311]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:386][312]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:388][312]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:390][312]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:391][312]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:418][313]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:420][313]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:421][313]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:422][313]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:452][314]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:455][314]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:456][314]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:457][314]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:484][315]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:486][315]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:487][315]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:488][315]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:519][316]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:521][316]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:522][316]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:523][316]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:551][317]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:553][317]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:554][317]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:555][317]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:587][318]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:589][318]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:590][318]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:591][318]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:617][319]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:619][319]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:620][319]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:620][319]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:652][320]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:653][320]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:655][320]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:655][320]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:684][321]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:685][321]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:686][321]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:687][321]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:719][322]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:720][322]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:721][322]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:722][322]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:751][323]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_2
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:752][323]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.37:753][323]LogScript: Warning: Attempted to access VRPawn_C_1 via property Pawn, but VRPawn_C_1 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_3
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.37:754][323]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:751][353]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
-[2020.11.11-13.18.38:751][353]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 145.76.27.46:53204, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-S32ASB4-4C9F869741BBA223BF6590A5072DE171
-[2020.11.11-13.18.38:752][353]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 145.76.27.46:53204, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-S32ASB4-4C9F869741BBA223BF6590A5072DE171, Channels: 16, Time: 2020.11.11-13.18.38
-[2020.11.11-13.18.38:753][353]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 145.76.27.46:53204, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-S32ASB4-4C9F869741BBA223BF6590A5072DE171
-[2020.11.11-13.18.38:754][353]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
-[2020.11.11-13.18.38:761][353]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:762][353]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:762][353]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:763][353]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:790][354]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:792][354]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:792][354]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:793][354]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:822][355]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:823][355]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:824][355]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:825][355]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:857][356]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:859][356]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:859][356]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:860][356]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:889][357]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:891][357]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:892][357]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:893][357]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:925][358]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:927][358]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:928][358]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:928][358]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:956][359]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:958][359]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:959][359]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:960][359]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:991][360]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:993][360]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.38:993][360]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.38:994][360]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:024][361]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:026][361]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:027][361]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:028][361]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:059][362]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:061][362]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:062][362]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:062][362]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:091][363]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:093][363]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:094][363]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:095][363]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:126][364]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:128][364]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:128][364]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:129][364]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:158][365]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:160][365]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:161][365]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:162][365]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:194][366]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:196][366]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:197][366]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:198][366]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:226][367]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:228][367]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:229][367]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:230][367]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:262][368]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:263][368]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:264][368]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:265][368]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:292][369]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_0
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:294][369]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
-[2020.11.11-13.18.39:295][369]LogScript: Warning: Attempted to access VRPawn_C_0 via property Pawn, but VRPawn_C_0 is pending kill
-	BP_MotionController_C /Game/Maps/MainMap.MainMap:PersistentLevel.BP_MotionController_C_1
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController:089B
-[2020.11.11-13.18.39:295][369]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ReceiveTick
-	Function /Game/Blueprints/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C:ExecuteUbergraph_BP_MotionController
-
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
+[2020.11.16-13.06.03:326][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.16-13.06.03:326][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.16-13.06.03:327][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
+[2020.11.16-13.06.03:327][  0]LogConfig: Setting CVar [[net.MaxRepArraySize:8192]]
+[2020.11.16-13.06.03:327][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
+[2020.11.16-13.06.03:332][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.16-13.06.03:332][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.16-13.06.03:333][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.16-13.06.03:333][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.16-13.06.03:333][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.16-13.06.03:334][  0]LogHAL: Display: Platform has ~ 64 GB [68423581696 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.16-13.06.03:334][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.16-13.06.03:334][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.16-13.06.03:334][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Scalability.ini]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.16-13.06.03:335][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Config/Windows/Engine.ini]
+[2020.11.16-13.06.03:335][  0]LogInit: Computer: DESKTOP-S32ASB4
+[2020.11.16-13.06.03:335][  0]LogInit: User: Student2020
+[2020.11.16-13.06.03:335][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.11.16-13.06.03:335][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.16-13.06.03:335][  0]LogMemory: Memory total: Physical=63.7GB (64GB approx)
+[2020.11.16-13.06.03:335][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.16-13.06.03:335][  0]LogMemory: Process Physical Memory: 124.02 MB used, 124.03 MB peak
+[2020.11.16-13.06.03:335][  0]LogMemory: Process Virtual Memory: 109.76 MB used, 109.76 MB peak
+[2020.11.16-13.06.03:335][  0]LogMemory: Physical Memory: 12734.13 MB used,  52519.68 MB free, 65253.81 MB total
+[2020.11.16-13.06.03:335][  0]LogMemory: Virtual Memory: 5239.30 MB used,  134212488.00 MB free, 134217728.00 MB total
+[2020.11.16-13.06.03:340][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.16-13.06.03:363][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.16-13.06.03:364][  0]LogInit: Using OS detected language (en-US).
+[2020.11.16-13.06.03:364][  0]LogInit: Using OS detected locale (en-US).
+[2020.11.16-13.06.03:366][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.11.16-13.06.03:530][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.16-13.06.03:562][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.16-13.06.03:562][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.16-13.06.03:661][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.16-13.06.03:661][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.16-13.06.03:661][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.16-13.06.03:739][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2020.11.16-13.06.03:739][  0]LogD3D11RHI:       11049/0/32626 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.11.16-13.06.03:744][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.16-13.06.03:744][  0]LogD3D11RHI:       0/0/32626 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.16-13.06.03:744][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.16-13.06.03:759][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.16-13.06.03:760][  0]LogD3D11RHI:     GPU DeviceId: 0x1e04 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.16-13.06.03:760][  0]LogWindows: EnumDisplayDevices:
+[2020.11.16-13.06.03:760][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2020.11.16-13.06.03:760][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
+[2020.11.16-13.06.03:761][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.11.16-13.06.03:761][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.11.16-13.06.03:761][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.16-13.06.03:761][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2020.11.16-13.06.03:761][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.11.16-13.06.03:761][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.11.16-13.06.03:761][  0]LogRHI: Texture pool is 7734 MB (70% of 11049 MB)
+[2020.11.16-13.06.03:822][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.16-13.06.03:823][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.11.16-13.06.03:823][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.16-13.06.03:823][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.16-13.06.03:845][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.11.16-13.06.04:085][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.16-13.06.04:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.16-13.06.04:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.16-13.06.04:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.16-13.06.04:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.16-13.06.04:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.16-13.06.04:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.16-13.06.04:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.16-13.06.04:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.16-13.06.04:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.16-13.06.04:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.16-13.06.04:125][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.16-13.06.04:125][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.16-13.06.04:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.16-13.06.04:142][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.16-13.06.04:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.16-13.06.04:158][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.16-13.06.04:165][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.16-13.06.04:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.16-13.06.04:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.16-13.06.04:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.16-13.06.04:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.16-13.06.04:219][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.16-13.06.04:219][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.16-13.06.04:227][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.16-13.06.04:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.16-13.06.04:244][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.16-13.06.04:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.16-13.06.04:252][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.16-13.06.04:258][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.16-13.06.04:322][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Intermediate/Shaders/WorkingDirectory/3720/).
+[2020.11.16-13.06.04:322][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Student 2020/AppData/Local/Temp/UnrealShaderWorkingDir/1A54B12F4C6BE1DCCDD1069A86FE3276/'.
+[2020.11.16-13.06.04:323][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.16-13.06.04:323][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.16-13.06.04:323][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.16-13.06.04:985][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.16-13.06.05:049][  0]LogDerivedDataCache: Loaded boot cache 0.06s 94MB C:/Users/Student 2020/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.16-13.06.05:049][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Student 2020/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.16-13.06.05:049][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.16-13.06.05:049][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.16-13.06.05:049][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.16-13.06.05:050][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.16-13.06.05:059][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.16-13.06.05:059][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.16-13.06.05:059][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.16-13.06.05:060][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Student 2020/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.16-13.06.05:060][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.16-13.06.05:060][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.16-13.06.05:105][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.16-13.06.05:105][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.16-13.06.05:129][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2020.11.16-13.06.05:349][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.16-13.06.05:451][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.16-13.06.05:452][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.16-13.06.05:452][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.16-13.06.05:452][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.16-13.06.05:452][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.16-13.06.05:475][  0]LogNetVersion: UnrealVR 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2192167523)
+[2020.11.16-13.06.05:874][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000202F5095BC0), frame # 0
+[2020.11.16-13.06.05:874][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000202F4FF0CC0), frame # 0
+[2020.11.16-13.06.05:875][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000202F5039E00), frame # 0
+[2020.11.16-13.06.05:929][  0]LogPackageLocalizationCache: Processed 21 localized package path(s) for 1 prioritized culture(s) in 0.048561 seconds
+[2020.11.16-13.06.05:934][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.16-13.06.05:934][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.16-13.06.05:934][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.16-13.06.06:263][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.16-13.06.06:267][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.16-13.06.06:299][  0]LogSteamAudio: FSteamAudioModule Startup
+[2020.11.16-13.06.06:299][  0]LogSteamAudio: Display: Attempting to load ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll
+[2020.11.16-13.06.06:301][  0]LogSteamAudio: Display: Loaded ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll.
+[2020.11.16-13.06.06:363][  0]SourceControl: Source control is disabled
+[2020.11.16-13.06.07:034][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.16-13.06.07:050][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.16-13.06.07:050][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.16-13.06.07:107][  0]LogOcInput: OculusInput pre-init called
+[2020.11.16-13.06.07:323][  0]LogEngine: Initializing Engine...
+[2020.11.16-13.06.07:324][  0]LogHMD: Oculus plugin initialized. Version: 4.25.3-13942748+++UE4+Release-4.25, OVRPlugin: 1.44.0
+[2020.11.16-13.06.07:325][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.16-13.06.07:444][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.16-13.06.07:451][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.16-13.06.07:451][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020280413C00), frame # 0
+[2020.11.16-13.06.07:451][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002028046CE00), frame # 0
+[2020.11.16-13.06.07:469][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.16-13.06.07:469][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.16-13.06.07:469][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.16-13.06.07:469][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.16-13.06.07:469][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.16-13.06.07:469][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.16-13.06.07:469][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.16-13.06.07:469][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.16-13.06.07:470][  0]LogAudio: Display: Audio Occlusion Plugin: Steam Audio
+[2020.11.16-13.06.07:470][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.16-13.06.07:485][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.16-13.06.07:485][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.16-13.06.07:541][  0]LogAudioMixer: Display: Using Audio Device Headphones (3- Arctis 7 Game)
+[2020.11.16-13.06.07:569][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.16-13.06.07:571][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.16-13.06.07:571][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.16-13.06.07:572][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.16-13.06.07:574][  0]LogInit: FAudioDevice initialized.
+[2020.11.16-13.06.07:574][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.16-13.06.07:625][  0]LogDerivedDataCache: Saved boot cache 0.05s 94MB C:/Users/Student 2020/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.16-13.06.07:630][  0]LogInit: Texture streaming: Enabled
+[2020.11.16-13.06.07:651][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.16-13.06.07:651][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.16-13.06.07:652][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.16-13.06.07:726][  0]LogInit: Transaction tracking system initialized
+[2020.11.16-13.06.07:743][  0]BlueprintLog: New page: Editor Load
+[2020.11.16-13.06.07:809][  0]LocalizationService: Localization service is disabled
+[2020.11.16-13.06.07:945][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.16-13.06.07:945][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.16-13.06.07:971][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/' took 0.01s
+[2020.11.16-13.06.08:248][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.729
+[2020.11.16-13.06.08:248][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.16-13.06.08:248][  0]LightingResults: New page: Lighting Build
+[2020.11.16-13.06.08:249][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.16-13.06.08:249][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.16-13.06.08:249][  0]MapCheck: New page: Map Check
+[2020.11.16-13.06.08:249][  0]LightingResults: New page: Lighting Build
+[2020.11.16-13.06.08:266][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020280413C00), frame # 0
+[2020.11.16-13.06.08:266][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002028046CE00), frame # 0
+[2020.11.16-13.06.08:267][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.11.16-13.06.08:299][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Gestures/Gesture2.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
+[2020.11.16-13.06.08:299][  0]LoadErrors: Failed to load /Game/Blueprints/Buttons/Gestures/Gesture2.Gesture2_C Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:299][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Gestures/Gesture2.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
+[2020.11.16-13.06.08:299][  0]LoadErrors: Failed to load /Game/Blueprints/Buttons/Gestures/Gesture2.Gesture2_C Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:299][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Gestures/Gesture2.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
+[2020.11.16-13.06.08:299][  0]LoadErrors: Failed to load /Game/Blueprints/Buttons/Gestures/Gesture2.Gesture2_C Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:300][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Gestures/Gesture2.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
+[2020.11.16-13.06.08:300][  0]LoadErrors: Failed to load /Game/Blueprints/Buttons/Gestures/Gesture2.Gesture2_C Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:300][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Gestures/Gesture2.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
+[2020.11.16-13.06.08:300][  0]LoadErrors: Failed to load /Game/Blueprints/Buttons/Gestures/Gesture2.Gesture2_C Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:300][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Gestures/Gesture2.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
+[2020.11.16-13.06.08:300][  0]LoadErrors: Failed to load /Game/Blueprints/Buttons/Gestures/Gesture2.Gesture2_C Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:300][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Gestures/Gesture2.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
+[2020.11.16-13.06.08:300][  0]LoadErrors: Failed to load /Game/Blueprints/Buttons/Gestures/Gesture2.Gesture2_C Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:300][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Buttons/Gestures/Gesture2.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
+[2020.11.16-13.06.08:300][  0]LoadErrors: Failed to load /Game/Blueprints/Buttons/Gestures/Gesture2.Gesture2_C Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:333][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
+[2020.11.16-13.06.08:333][  0]LoadErrors: Failed to load /Game/Meshes/OtterMaterial.OtterMaterial Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:333][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
+[2020.11.16-13.06.08:333][  0]LoadErrors: Failed to load /Game/Meshes/OtterMaterial.OtterMaterial Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:333][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
+[2020.11.16-13.06.08:333][  0]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_SplineArcMat.M_SplineArcMat Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:334][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
+[2020.11.16-13.06.08:334][  0]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_SplineArcMat.M_SplineArcMat Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:334][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
+[2020.11.16-13.06.08:334][  0]LoadErrors: Failed to load /Game/Meshes/OtterMaterial Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:334][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
+[2020.11.16-13.06.08:334][  0]LoadErrors: Failed to load /Game/Meshes/OtterMaterial Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:334][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
+[2020.11.16-13.06.08:334][  0]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_SplineArcMat Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:334][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
+[2020.11.16-13.06.08:334][  0]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_SplineArcMat Referenced by Gesture2_GEN_VARIABLE
+[2020.11.16-13.06.08:335][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
+[2020.11.16-13.06.08:335][  0]LoadErrors: Failed to load /Game/Meshes/OtterMaterial.OtterMaterial Referenced by K2Node_CallFunction_0
+[2020.11.16-13.06.08:335][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset' failed to load '/Game/Meshes/OtterMaterial': Can't find file.
+[2020.11.16-13.06.08:335][  0]LoadErrors: Failed to load /Game/Meshes/OtterMaterial.OtterMaterial Referenced by K2Node_CallFunction_0
+[2020.11.16-13.06.08:335][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
+[2020.11.16-13.06.08:335][  0]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_SplineArcMat.M_SplineArcMat Referenced by K2Node_CallFunction_1
+[2020.11.16-13.06.08:335][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset' failed to load '/Game/VirtualReality/Materials/M_SplineArcMat': Can't find file.
+[2020.11.16-13.06.08:335][  0]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_SplineArcMat.M_SplineArcMat Referenced by K2Node_CallFunction_1
+[2020.11.16-13.06.08:515][  0]LogAIModule: Creating AISystem for world MainMap
+[2020.11.16-13.06.08:515][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002029190E400), frame # 0
+[2020.11.16-13.06.08:515][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000202918DA980), frame # 0
+[2020.11.16-13.06.08:517][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel) is flushing async loading
+[2020.11.16-13.06.08:517][  0]LogStreaming: Display: Flushing async loaders.
+[2020.11.16-13.06.08:555][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:555][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:555][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:555][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:564][  0]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:564][  0]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:564][  0]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:564][  0]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:565][  0]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:565][  0]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:565][  0]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:565][  0]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:565][  0]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:565][  0]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:565][  0]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:565][  0]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:566][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:566][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:566][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:566][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:566][  0]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:566][  0]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:566][  0]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:566][  0]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:567][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:567][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:567][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:567][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:567][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:567][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:567][  0]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:568][  0]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:568][  0]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:568][  0]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:568][  0]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:568][  0]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:568][  0]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:568][  0]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:568][  0]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:568][  0]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:568][  0]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:568][  0]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:569][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:569][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:569][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:569][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:569][  0]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:569][  0]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:569][  0]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:569][  0]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:569][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:570][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:570][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:570][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:570][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:570][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:570][  0]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:571][  0]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:571][  0]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:571][  0]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:571][  0]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:571][  0]LogLinker: Warning: Failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:571][  0]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:571][  0]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:571][  0]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:571][  0]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:572][  0]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:572][  0]LogLinker: Warning: Failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:572][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:572][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:572][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:572][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:572][  0]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:572][  0]LogLinker: Warning: Failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:572][  0]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:572][  0]LogLinker: Warning: Failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:572][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:573][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:575][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:575][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:575][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:575][  0]LogLinker: Warning: Failed to load '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn': Can't find file.
+[2020.11.16-13.06.08:577][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:577][  0]LoadErrors: Failed to load /Game/Meshes/Dancer/rp_manuel_animated_001_dancing.rp_manuel_animated_001_dancing Referenced by SkeletalMeshComponent0
+[2020.11.16-13.06.08:577][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:577][  0]LoadErrors: Failed to load /Game/Meshes/Dancer/rp_manuel_animated_001_dancing.rp_manuel_animated_001_dancing Referenced by SkeletalMeshComponent0
+[2020.11.16-13.06.08:577][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:577][  0]LoadErrors: Failed to load /Game/Meshes/Dancer/rp_manuel_animated_001_dancing.rp_manuel_animated_001_dancing Referenced by SkeletalMeshComponent0
+[2020.11.16-13.06.08:577][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/Dancer/rp_manuel_animated_001_dancing': Can't find file.
+[2020.11.16-13.06.08:577][  0]LoadErrors: Failed to load /Game/Meshes/Dancer/rp_manuel_animated_001_dancing.rp_manuel_animated_001_dancing Referenced by SkeletalMeshComponent0
+[2020.11.16-13.06.08:577][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:577][  0]LoadErrors: Failed to load /Game/Meshes/GreyBoxCItyV1.GreyBoxCItyV1 Referenced by StaticMeshComponent0
+[2020.11.16-13.06.08:578][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/GreyBoxCItyV1': Can't find file.
+[2020.11.16-13.06.08:578][  0]LoadErrors: Failed to load /Game/Meshes/GreyBoxCItyV1.GreyBoxCItyV1 Referenced by StaticMeshComponent0
+[2020.11.16-13.06.08:578][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:578][  0]LoadErrors: Failed to load /Game/Meshes/lambert1.lambert1 Referenced by StaticMeshComponent0
+[2020.11.16-13.06.08:578][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Meshes/lambert1': Can't find file.
+[2020.11.16-13.06.08:578][  0]LoadErrors: Failed to load /Game/Meshes/lambert1.lambert1 Referenced by StaticMeshComponent0
+[2020.11.16-13.06.08:578][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:578][  0]LoadErrors: Failed to load /Game/Materials/SpeakerMaterial0.SpeakerMaterial0 Referenced by StaticMeshComponent0
+[2020.11.16-13.06.08:578][  0]LogLinker: Warning: While loading '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.umap' failed to load '/Game/Materials/SpeakerMaterial0': Can't find file.
+[2020.11.16-13.06.08:578][  0]LoadErrors: Failed to load /Game/Materials/SpeakerMaterial0.SpeakerMaterial0 Referenced by StaticMeshComponent0
+[2020.11.16-13.06.08:665][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Camera': MotionControllerPawn_C /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.StageLevel:PersistentLevel.VRPawn_507
+[2020.11.16-13.06.08:665][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'VROrigin': MotionControllerPawn_C /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.StageLevel:PersistentLevel.VRPawn_507
+[2020.11.16-13.06.08:665][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': MotionControllerPawn_C /Game/Maps/EnvironmentMaps/SkyscraperMap/StageLevel.StageLevel:PersistentLevel.VRPawn_507
+[2020.11.16-13.06.08:665][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Lobby/Lobby) is flushing async loading
+[2020.11.16-13.06.08:680][  0]LogBlueprint: Warning: [Compiler PersistentLevel.Lobby] Node  Unknown  is not referencing a valid level actor
+[2020.11.16-13.06.08:687][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Greybox/Greybox) is flushing async loading
+[2020.11.16-13.06.08:951][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.16-13.06.09:009][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.11.16-13.06.09:011][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.16-13.06.09:011][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.397ms to complete.
+[2020.11.16-13.06.09:011][  0]LogFileHelpers: Loading map 'MainMap' took 0.763
+[2020.11.16-13.06.09:014][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.496
+[2020.11.16-13.06.09:154][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.16-13.06.09:161][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.16-13.06.09:168][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.16-13.06.09:174][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.16-13.06.09:180][  0]LogCollectionManager: Loaded 0 collections in 0.001576 seconds
+[2020.11.16-13.06.09:194][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Collections/' took 0.00s
+[2020.11.16-13.06.09:194][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Developers/Student2020/Collections/' took 0.00s
+[2020.11.16-13.06.09:194][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Collections/' took 0.00s
+[2020.11.16-13.06.09:194][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3448 classes and 833 folders.
+[2020.11.16-13.06.09:197][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.16-13.06.09:246][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.16-13.06.09:247][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.11.16-13.06.09:289][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.16-13.06.09:291][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.16-13.06.09:295][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.16-13.06.09:365][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2020.11.16-13.06.09:482][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.16-13.06.09:482][  0]LogLoad: (Engine Initialization) Total time: 7.96 seconds
+[2020.11.16-13.06.09:482][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.16-13.06.09:493][  0]LogOcInput: OculusInput is initialized
+[2020.11.16-13.06.09:527][  0]LogAssetRegistry: Asset discovery search completed in 4.3982 seconds
+[2020.11.16-13.06.09:533][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.11.16-13.06.09:535][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.16-13.06.09:625][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.16-13.06.10:523][103]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.16-13.06.12:937][342]LogSlate: Window 'Message Log' being destroyed
+[2020.11.16-13.06.12:942][342]LogSlate: Window 'Message Log' being destroyed
+[2020.11.16-13.06.20:141][181]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Greybox/Greybox.Greybox
+[2020.11.16-13.06.20:156][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.11.16-13.06.20:158][181]Cmd: MAP LOAD FILE="../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.16-13.06.20:158][181]LightingResults: New page: Lighting Build
+[2020.11.16-13.06.20:158][181]LoadErrors: New page: Loading map: Greybox.umap
+[2020.11.16-13.06.20:182][181]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.16-13.06.20:182][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.16-13.06.20:182][181]LogWorld: UWorld::CleanupWorld for StageLevel, bSessionEnded=true, bCleanupResources=true
+[2020.11.16-13.06.20:183][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.16-13.06.20:183][181]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.11.16-13.06.20:183][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.16-13.06.20:183][181]LogWorld: UWorld::CleanupWorld for Greybox, bSessionEnded=true, bCleanupResources=true
+[2020.11.16-13.06.20:183][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.16-13.06.20:183][181]MapCheck: New page: Map Check
+[2020.11.16-13.06.20:183][181]LightingResults: New page: Lighting Build
+[2020.11.16-13.06.20:199][181]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002029190E400), frame # 1181
+[2020.11.16-13.06.20:199][181]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000202918DA980), frame # 1181
+[2020.11.16-13.06.20:200][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.11.16-13.06.20:202][181]LogAIModule: Creating AISystem for world Greybox
+[2020.11.16-13.06.20:202][181]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002029190EA00), frame # 1181
+[2020.11.16-13.06.20:202][181]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020295B63880), frame # 1181
+[2020.11.16-13.06.20:209][181]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.16-13.06.20:227][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.11.16-13.06.20:285][181]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.16-13.06.20:285][181]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.152ms to complete.
+[2020.11.16-13.06.20:285][181]LogFileHelpers: Loading map 'Greybox' took 0.127
+[2020.11.16-13.06.20:386][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.11.16-13.06.20:403][182]LogSteamAudio: World changed to Greybox. Reinitializing environment.
+[2020.11.16-13.06.20:957][243]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Maps/Greybox/GreyboxSequence.GreyboxSequence
+[2020.11.16-13.06.21:429][243]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.16-13.06.34:360][267]SourceControl: fatal: /Script: '/Script' is outside repository at 'C:/Users/Student 2020/Documents/VRLivePerformance'
+[2020.11.16-13.06.35:997][406]LogSlate: Window 'Project Settings' being destroyed
+[2020.11.16-13.06.36:005][406]LogSlate: Window 'Project Settings' being destroyed
+[2020.11.16-13.06.45:399][478]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/GreyboxSequence2826E0AA4F42FB3FCE3D7BA4468E3E63.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/GreyboxSequence.uasset'
+[2020.11.16-13.06.45:419][478]AssetCheck: New page: Asset Save: GreyboxSequence
+[2020.11.16-13.06.45:419][478]LogContentValidation: Display: Validating LevelSequence /Game/Maps/Greybox/GreyboxSequence.GreyboxSequence
+[2020.11.16-13.06.46:425][591]LogSlate: Window 'Sequencer' being destroyed
+[2020.11.16-13.06.46:427][591]LogSlate: Window 'Sequencer' being destroyed
+[2020.11.16-13.07.36:792][601]LogActor: Warning: InteractableObject_C /Engine/Transient.World_1:PersistentLevel.InteractableObject_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.11.16-13.07.40:576][ 39]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.07.40:789][ 39]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2020.11.16-13.07.41:489][ 39]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.16-13.07.41:537][ 40]LogSteamAudio: World changed to Greybox. Reinitializing environment.
+[2020.11.16-13.08.52:634][581]BlueprintLog: New page: Compile TimelineController
+[2020.11.16-13.08.52:762][581]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2020.11.16-13.08.53:324][613]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineController518DD53A45A0A269C60F97B505EEF77C.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.08.53:350][613]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.08.53:350][613]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.12.00:674][133]BlueprintLog: New page: Compile TimelineController
+[2020.11.16-13.12.00:737][133]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.11.16-13.12.01:717][226]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineControllerB1EC67A44E912EE239F9D1A8D87079C2.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.12.01:734][226]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.12.01:734][226]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.12.22:277][424]BlueprintLog: New page: Compile TimelineController
+[2020.11.16-13.12.22:324][424]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.11.16-13.12.22:862][466]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineControllerC8E84FA94E414D582F3BBFAC0B9886DD.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.12.22:877][466]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.12.22:877][466]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.12.27:795][ 28]BlueprintLog: New page: Compile TimelineController
+[2020.11.16-13.12.27:845][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.11.16-13.12.28:389][ 63]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineController912C8D714A141E6C806790909AA5B9C3.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.12.28:406][ 63]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.12.28:406][ 63]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.12.57:315][918]BlueprintLog: New page: Compile TimelineController
+[2020.11.16-13.12.57:366][918]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.11.16-13.12.57:910][944]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineController628DA6F0435C2C5EEFD8D1B18D77C24F.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.12.57:925][944]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.12.57:925][944]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.13.05:283][567]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineControllerD6AC8D9041357C44EC235095BA3F4045.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.13.05:298][567]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.13.05:298][567]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.14.22:124][243]BlueprintLog: New page: Compile TimelineController
+[2020.11.16-13.14.22:175][243]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.11.16-13.14.22:766][271]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineControllerF77631AB4C5E58491716E98738993D12.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.14.22:781][271]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.14.22:781][271]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.16.19:992][679]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.11.16-13.16.20:063][679]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Greybox_Auto108492E654859E6250C19D3AAD784BAB9.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Autosaves/Game/Maps/Greybox/Greybox_Auto1.umap'
+[2020.11.16-13.16.20:066][679]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Greybox/Greybox' took 0.103
+[2020.11.16-13.16.20:066][679]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.103
+[2020.11.16-13.22.51:964][242]BlueprintLog: New page: Compile TimelineController
+[2020.11.16-13.22.52:017][242]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.11.16-13.22.52:557][268]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineController4071F508490F022536E2EEBF7DC934D0.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.22.52:580][268]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.22.52:580][268]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.23.06:380][478]BlueprintLog: New page: Compile TimelineController
+[2020.11.16-13.23.06:427][478]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.11.16-13.23.07:048][512]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineController2C9CCA064654E6AD939590B3B7FD26D2.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.23.07:062][512]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.23.07:062][512]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.23.45:928][ 29]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.11.16-13.24.08:162][791]BlueprintLog: New page: Compile TimelineController
+[2020.11.16-13.24.08:167][791]LogClass: Warning: Type mismatch in MaxDesync of TimelineController_C - Previous (BoolProperty) Current(FloatProperty) for package:  FObjectReader
+[2020.11.16-13.24.08:167][791]LogBlueprint: Warning: [Compiler TimelineController] Can't parse default value 'False' for  . Property: MaxDesync.
+[2020.11.16-13.24.08:213][791]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.11.16-13.24.08:714][812]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineController958086A84B78FF95FD06D897732F2DF4.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.24.08:730][812]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.24.08:730][812]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.24.17:748][502]BlueprintLog: New page: Compile TimelineController
+[2020.11.16-13.24.17:800][502]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.11.16-13.24.18:287][523]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineController3FE1F54140DB6735DBE36D82A8F444C2.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.24.18:303][523]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.24.18:303][523]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.24.21:539][729]BlueprintLog: New page: Compile TimelineController
+[2020.11.16-13.24.21:588][729]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.11.16-13.24.22:126][751]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineControllerA6137B8B40FC260C09F0B4A018DCE2A9.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.24.22:146][751]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.24.22:146][751]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.25.23:187][618]BlueprintLog: New page: Compile TimelineController
+[2020.11.16-13.25.23:237][618]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.11.16-13.25.23:683][638]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineController2CECD1014729D1578F77BC973D6A753C.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.25.23:701][638]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.25.23:701][638]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.26.12:447][187]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineController1B76AB374F6201638E3DF28C82D81592.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.26.12:463][187]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.26.12:463][187]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.27.11:039][845]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.11.16-13.27.11:104][845]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Greybox_Auto27C0B85F0404F30165793B68DA7AA2909.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Autosaves/Game/Maps/Greybox/Greybox_Auto2.umap'
+[2020.11.16-13.27.11:106][845]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Greybox/Greybox' took 0.095
+[2020.11.16-13.27.11:106][845]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.095
+[2020.11.16-13.28.18:544][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.11.16-13.28.18:592][454]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/GreyboxAA141C55468A91807F3A728A9FB85E5A.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox.umap'
+[2020.11.16-13.28.18:777][454]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/Greybox_BuiltData352993964C9B25919FE400AC2099F6AF.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Maps/Greybox/Greybox_BuiltData.uasset'
+[2020.11.16-13.28.18:798][454]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.16-13.28.18:798][454]LogContentValidation: Display: Validating World /Game/Maps/Greybox/Greybox.Greybox
+[2020.11.16-13.28.18:798][454]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Greybox/Greybox_BuiltData.Greybox_BuiltData
+[2020.11.16-13.28.21:890][769]MapCheck: New page: Map Check
+[2020.11.16-13.28.21:900][769]LightingResults: New page: Lighting Build - Nov 16, 2020, 3:28:21 PM
+[2020.11.16-13.28.21:946][769]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.16-13.28.22:010][769]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.16-13.28.22:027][769]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.16-13.28.22:538][769]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.16-13.28.22:538][769]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3720
+[2020.11.16-13.28.29:194][769]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.16-13.28.29:194][769]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.16-13.28.29:194][769]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.16-13.28.29:195][769]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.16-13.28.29:195][769]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.16-13.28.29:351][769]LogEditorBuildUtils: Build time 0:07
+[2020.11.16-13.28.29:622][773]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2020.11.16-13.28.34:715][189]LightingResults: Warning: FullEnv_Stage4 Object has overlapping UVs.
+[2020.11.16-13.28.34:715][189]LightingResults: FullEnv_Stage4 Lightmap UV are overlapping by 22.3%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.16-13.28.42:199][849]LightingResults: Warning: Tree3 Object has overlapping UVs.
+[2020.11.16-13.28.42:199][849]LightingResults: Tree3 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
+[2020.11.16-13.28.42:263][854]Job is a success!
+[2020.11.16-13.28.42:409][855]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
+[2020.11.16-13.28.42:409][855]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.11.16-13.28.42:409][855]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb
+[2020.11.16-13.28.42:409][855]LogVolumetricLightmapImport:      Bricks at depth
+[2020.11.16-13.28.42:409][855]LogVolumetricLightmapImport:          0: 4.0% covering 100.0% of volume
+[2020.11.16-13.28.42:409][855]LogVolumetricLightmapImport:          1: 8.0% covering 3.1% of volume
+[2020.11.16-13.28.42:409][855]LogVolumetricLightmapImport:          2: 88.0% covering 0.5% of volume
+[2020.11.16-13.28.42:409][855]LogVolumetricLightmapImport:      Bricks in each level
+[2020.11.16-13.28.42:409][855]LogVolumetricLightmapImport:          Greybox 			 25 bricks 	 100.0% (Persistent Level)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 64X64)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 64X64)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 128X64)
+[2020.11.16-13.28.42:544][855]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 512X64)
+[2020.11.16-13.28.42:544][855]Lightmass on DESKTOP-S32ASB4: 12.3 sec total, 792 ms importing, 232 ms setup, 2.55 sec photons, 8.68 sec processing, 0 ms extra exporting [12/12 mappings]. Threads: 2:10 min total, 20.8 sec processing.
+[2020.11.16-13.28.42:552][855]LogStaticLightingSystem: Greybox_BuiltData storing lightmap data for 12 meshes in 5 LightmapResourceClusters (2.4 Meshes per cluster).
+[2020.11.16-13.28.42:588][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.11.16-13.28.42:696][855]LogStaticLightingSystem: Illumination: 20.7 sec (56 ms encoding lightmaps, 9 ms encoding shadowmaps)
+[2020.11.16-13.28.42:697][855]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 10 textures
+[2020.11.16-13.28.42:697][855]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 5 textures
+[2020.11.16-13.28.43:211][855]DumpUnbuiltLightIteractions
+[2020.11.16-13.28.43:211][855]Lights with unbuilt interactions: 0
+[2020.11.16-13.28.43:211][855]
+[2020.11.16-13.28.43:211][855]Primitives with unbuilt interactions: 0
+[2020.11.16-13.28.43:282][856]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.16-13.28.43:282][856]MapCheck: New page: Greybox - Nov 16, 2020, 3:28:43 PM
+[2020.11.16-13.28.43:282][856]MapCheck: Warning: FullEnv_Bridge_10 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:282][856]MapCheck: Warning: FullEnv_Stage1_12 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:282][856]MapCheck: Warning: FullEnv_Stage2_14 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:282][856]MapCheck: Warning: FullEnv_Stage3_16 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:282][856]MapCheck: Warning: FullEnv_Stage4_18 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:282][856]MapCheck: Warning: FullEnv_Stage5_20 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:282][856]MapCheck: Warning: FullEnv_Stage6_22 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:282][856]MapCheck: Warning: FullEnv_Stage7Final_24 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:282][856]MapCheck: Warning: FullEnv_woman_26 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:282][856]MapCheck: Warning: MusicPlayer5 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:283][856]MapCheck: Warning: MusicPlayer_2 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:283][856]MapCheck: Warning: MusicPlayer2 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:283][856]MapCheck: Warning: MusicPlayer3 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:283][856]MapCheck: Warning: MusicPlayer4 Static mesh actor has NULL StaticMesh property 
+[2020.11.16-13.28.43:283][856]MapCheck: Map check complete: 0 Error(s), 14 Warning(s), took 0.979ms to complete.
+[2020.11.16-13.28.47:451][302]LogSlate: Window 'Message Log' being destroyed
+[2020.11.16-13.28.47:457][302]LogSlate: Window 'Message Log' being destroyed
+[2020.11.16-13.28.48:758][456]LogEditorViewport: Clicking Background
+[2020.11.16-13.31.23:851][ 29]LogSavePackage: Moving '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Saved/TimelineController25A3A3D5470D16466DE2E78300B1CA83.tmp' to '../../../../../../Users/Student 2020/Documents/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Content/Blueprints/Timeline/TimelineController.uasset'
+[2020.11.16-13.31.23:867][ 29]AssetCheck: New page: Asset Save: TimelineController
+[2020.11.16-13.31.23:867][ 29]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Timeline/TimelineController.TimelineController
+[2020.11.16-13.31.26:311][249]LogSlate: Window 'TimelineController' being destroyed
+[2020.11.16-13.31.26:316][249]LogSlate: Window 'TimelineController' being destroyed
+[2020.11.16-13.31.26:339][249]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.11.16-13.31.26:339][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.16-13.31.26:410][249]LogSteamAudio: World changed to Greybox. Reinitializing environment.
