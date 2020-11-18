@@ -29,14 +29,6 @@
 			"Type": "Executable"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/UIWS/Binaries/Win64/UE4Editor-UIWS.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/UIWS/Binaries/Win64/UE4Editor-UIWS.pdb",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamAudio/Binaries/Win64/UE4Editor-SteamAudio.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -2229,10 +2221,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/UIWS/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamAudio/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2640,10 +2628,6 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/UnrealVR.uproject",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/UIWS/UIWS.uplugin",
 			"Type": "UFS"
 		},
 		{
