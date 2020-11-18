@@ -29,12 +29,12 @@
 			"Type": "Executable"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/UIWS/Binaries/Win64/UE4Editor-UIWS.dll",
+			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamAudio/Binaries/Win64/UE4Editor-SteamAudio.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/UIWS/Binaries/Win64/UE4Editor-UIWS.pdb",
-			"Type": "SymbolFile"
+			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamAudio/Binaries/Win64/UE4Editor-SteamAudioEditor.dll",
+			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
@@ -2221,7 +2221,7 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/UIWS/Binaries/Win64/UE4Editor.modules",
+			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamAudio/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2631,7 +2631,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/UIWS/UIWS.uplugin",
+			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamAudio/SteamAudio.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -3029,6 +3029,38 @@
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
 			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/Phonon/Win64/GPUUtilities.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/Phonon/Win64/Intel Thread Building Blocks.tps",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/Phonon/Win64/Intel-Embree.tps",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/Phonon/Win64/phonon.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/Phonon/Win64/RadeonRays.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/Phonon/Win64/RadeonRaysSDK.tps",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/Phonon/Win64/tanrt64.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/Phonon/Win64/Trueaudionext-v1-2-2-4.tps",
+			"Type": "NonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/apr_crypto_openssl-1.dll",
@@ -4216,6 +4248,54 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Win64/OVRPlugin.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Config/SteamVRBindings/gamepad.json",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Config/SteamVRBindings/holographic_controller.json",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Config/SteamVRBindings/indexhmd.json",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Config/SteamVRBindings/knuckles.json",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Config/SteamVRBindings/oculus_touch.json",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Config/SteamVRBindings/rift.json",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Config/SteamVRBindings/steamvr_manifest.json",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Config/SteamVRBindings/vive.json",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Config/SteamVRBindings/vive_controller.json",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Config/SteamVRBindings/vive_cosmos_controller.json",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Config/SteamVRBindings/vive_pro.json",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Config/SteamVRBindings/vive_tracker_camera.json",
 			"Type": "NonUFS"
 		},
 		{

@@ -1,8 +1,9 @@
 {
 	"SourceFiles": [
-		"D:\\School\\SSS\\Project\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR\\UnrealVR.Build.cs",
-		"D:\\School\\SSS\\Project\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR.Target.cs",
-		"D:\\School\\SSS\\Project\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Target.cs"
+		"C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR\\UnrealVR.Build.cs",
+		"C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR.Target.cs",
+		"C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Server.Target.cs",
+		"C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Target.cs"
 	],
 	"EngineVersion": "4.25.3"
 }

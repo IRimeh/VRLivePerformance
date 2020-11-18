@@ -7,7 +7,7 @@
 		},
 		{
 			"Name": "UnrealVREditor",
-			"Path": "C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Target.cs",
+			"Path": "C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Server.Target.cs",
 			"Type": "Editor"
 		}
 	]
