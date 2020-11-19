@@ -2,12 +2,20 @@
 	"Targets": [
 		{
 			"Name": "UnrealVR",
+<<<<<<< Updated upstream
 			"Path": "C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR.Target.cs",
+=======
+			"Path": "C:\\Mathieu Te Stroete\\ICT Schoolwork\\Year 3\\Minor\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR.Target.cs",
+>>>>>>> Stashed changes
 			"Type": "Game"
 		},
 		{
 			"Name": "UnrealVREditor",
+<<<<<<< Updated upstream
 			"Path": "C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Server.Target.cs",
+=======
+			"Path": "C:\\Mathieu Te Stroete\\ICT Schoolwork\\Year 3\\Minor\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Server.Target.cs",
+>>>>>>> Stashed changes
 			"Type": "Editor"
 		}
 	]
