@@ -36,14 +36,14 @@ public:
 	void Grab(const USceneComponent* objectToAttachTo, const FVector grabLocation, const FRotator grabRotation);
 	UFUNCTION(BlueprintCallable, Category = "Grabbing")
 	void Release();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh")
+		UStaticMeshComponent* Mesh;
 	
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
-	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "Mesh")
-	UStaticMeshComponent* Mesh;
 
 	//Selection
 	UFUNCTION(BlueprintImplementableEvent, Category = "Interaction")
