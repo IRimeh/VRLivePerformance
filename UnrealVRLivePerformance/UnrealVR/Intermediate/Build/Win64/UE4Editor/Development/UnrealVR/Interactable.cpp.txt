@@ -1,3 +1,0 @@
-D:\School\SSS\Project\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Development\UnrealVR\Definitions.UnrealVR.h
-D:\School\SSS\Project\UnrealVRLivePerformance\UnrealVR\Source\UnrealVR/Public/Interactable.h
-D:\School\SSS\Project\UnrealVRLivePerformance\UnrealVR\Intermediate\Build\Win64\UE4Editor\Inc\UnrealVR\Interactable.generated.h
