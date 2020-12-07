@@ -35,7 +35,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactable")
 	int instancesAllowed = 10;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactable")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable")
 	bool replicatedToClients = true;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactable")
