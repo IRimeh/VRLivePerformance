@@ -20,7 +20,7 @@ public:
 	void onInteract(const UStaticMeshComponent* controller);
 
 	//Selection
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interaction")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interactable")
 	bool isSelected;
 
 	UFUNCTION(BlueprintCallable, Category = "Interaction")
@@ -29,8 +29,17 @@ public:
 	void Deselect();
 
 	//Grabbing
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grabbing")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable")
 	bool isGrabbable;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactable")
+	int instancesAllowed = 10;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactable")
+	bool replicatedToClients = true;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactable")
+	float destroyTimer = 0.1f;
 
 	UFUNCTION(BlueprintCallable, Category = "Grabbing")
 	void Grab(const USceneComponent* objectToAttachTo, const FVector grabLocation, const FRotator grabRotation);
@@ -38,7 +47,10 @@ public:
 	void Release();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh")
-		UStaticMeshComponent* Mesh;
+	UStaticMeshComponent* Mesh;
+
+	UFUNCTION(BlueprintCallable, Category = "Interactable")
+	void StartDestroying();
 	
 
 protected:
@@ -56,6 +68,14 @@ protected:
 	void onGrab();
 	UFUNCTION(BlueprintImplementableEvent, Category = "Grabbing")
 	void onRelease();
+
+	//Destroying
+	UFUNCTION(BlueprintImplementableEvent, Category = "Destroying")
+	void onStartDestroying();
+
+private:
+	void DeleteExcessObjects();
+	void ForceDestroy();
 
 public:	
 	// Called every frame
