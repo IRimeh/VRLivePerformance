@@ -2,6 +2,7 @@
 
 
 #include "UnrealVR/Public/Interactable.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 
 // Sets default values
 AInteractable::AInteractable()
@@ -17,14 +18,13 @@ AInteractable::AInteractable()
 void AInteractable::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	DeleteExcessObjects();
 }
 
 // Called every frame
 void AInteractable::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void AInteractable::Interact(const UStaticMeshComponent* controller)
@@ -49,20 +49,58 @@ void AInteractable::Deselect()
 
 void AInteractable::Grab(const USceneComponent* objectToAttachTo, const FVector grabLocation, const FRotator grabRotation)
 {
-	onGrab();
 	Mesh->SetSimulatePhysics(false);
 	Mesh->SetEnableGravity(false);
 
 	AttachToComponent(const_cast<USceneComponent*>(objectToAttachTo), FAttachmentTransformRules::KeepWorldTransform);
 	RootComponent->SetWorldLocation(grabLocation);
 	RootComponent->SetWorldRotation(grabRotation);
+
+	onGrab();
 }
 
 void AInteractable::Release()
 {
-	onRelease();
 	Mesh->SetSimulatePhysics(true);
 	Mesh->SetEnableGravity(true);
 
 	DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
+
+	onRelease();
+}
+
+void AInteractable::StartDestroying()
+{
+	onStartDestroying();
+	
+	FTimerHandle handle;
+	GetWorldTimerManager().SetTimer(handle, this, &AInteractable::ForceDestroy, destroyTimer, false);
+}
+
+void AInteractable::ForceDestroy()
+{
+	Destroy();
+}
+
+void AInteractable::DeleteExcessObjects()
+{
+	TArray<AActor*> allActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), this->GetClass(), allActors);
+
+	int oldestActorIndex = 0;
+	float timeSinceCreation = 0;
+	if (allActors.Num() > instancesAllowed)
+	{
+		for (int i = 0; i < allActors.Num(); i++)
+		{
+			if (allActors[i]->GetGameTimeSinceCreation() > timeSinceCreation)
+			{
+				timeSinceCreation = allActors[i]->GetGameTimeSinceCreation();
+				oldestActorIndex = i;
+			}
+		}
+
+		AInteractable* interactable = Cast<AInteractable>(allActors[oldestActorIndex]);
+		interactable->StartDestroying();
+	}
 }
