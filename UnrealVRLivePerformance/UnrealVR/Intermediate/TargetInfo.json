@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealVR",
+			"Path": "C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVR.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealVREditor",
+			"Path": "C:\\Users\\Student 2020\\Documents\\VRLivePerformance\\UnrealVRLivePerformance\\UnrealVR\\Source\\UnrealVREditor.Server.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
