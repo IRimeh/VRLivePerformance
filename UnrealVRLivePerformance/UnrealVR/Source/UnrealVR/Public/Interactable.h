@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "Interactable.generated.h"
 
 UCLASS()
@@ -40,6 +41,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable")
 	bool replicatedToClients = true;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactable")
+	float destroyAfterTime = -1;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactable")
 	float destroyTimer = 0.1f;
@@ -79,9 +83,13 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Destroying")
 	void onStartDestroying();
 
+
 private:
 	void DeleteExcessObjects();
 	void ForceDestroy();
+
+	FTimerHandle destroyTimerHandle;
+
 
 public:	
 	// Called every frame
