@@ -19,6 +19,12 @@ void AInteractable::BeginPlay()
 {
 	Super::BeginPlay();
 	DeleteExcessObjects();
+
+	//Destroy after seconds
+	if (destroyAfterTime > 0)
+	{
+		GetWorldTimerManager().SetTimer(destroyTimerHandle, this, &AInteractable::StartDestroying, destroyAfterTime, false);
+	}
 }
 
 // Called every frame
@@ -66,6 +72,9 @@ void AInteractable::Grab(const USceneComponent* objectToAttachTo, const FVector 
 	isBeingHeld = true;
 
 	onGrab();
+
+	//Stop destroy timer
+	GetWorldTimerManager().ClearTimer(destroyTimerHandle);
 }
 
 void AInteractable::Release()
@@ -78,6 +87,12 @@ void AInteractable::Release()
 	isBeingHeld = false;
 
 	onRelease();
+
+	//Start destroy timer
+	if (destroyAfterTime > 0)
+	{
+		GetWorldTimerManager().SetTimer(destroyTimerHandle, this, &AInteractable::StartDestroying, destroyAfterTime, false);
+	}
 }
 
 void AInteractable::StartDestroying()
