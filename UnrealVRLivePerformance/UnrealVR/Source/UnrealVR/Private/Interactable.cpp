@@ -29,7 +29,14 @@ void AInteractable::Tick(float DeltaTime)
 
 void AInteractable::Interact(const UStaticMeshComponent* controller)
 {
-	onInteract(controller);
+	if (isBeingHeld)
+	{
+		onInteractWhileHolding(controller);
+	}
+	else
+	{
+		onInteract(controller);
+	}
 }
 
 void AInteractable::Select()
@@ -56,6 +63,8 @@ void AInteractable::Grab(const USceneComponent* objectToAttachTo, const FVector 
 	RootComponent->SetWorldLocation(grabLocation);
 	RootComponent->SetWorldRotation(grabRotation);
 
+	isBeingHeld = true;
+
 	onGrab();
 }
 
@@ -65,6 +74,8 @@ void AInteractable::Release()
 	Mesh->SetEnableGravity(true);
 
 	DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
+	
+	isBeingHeld = false;
 
 	onRelease();
 }

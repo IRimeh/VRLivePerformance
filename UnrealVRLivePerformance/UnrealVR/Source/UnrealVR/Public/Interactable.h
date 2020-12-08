@@ -19,6 +19,9 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Interaction")
 	void onInteract(const UStaticMeshComponent* controller);
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "Interaction")
+	void onInteractWhileHolding(const UStaticMeshComponent* controller);
+
 	//Selection
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interactable")
 	bool isSelected;
@@ -45,6 +48,9 @@ public:
 	void Grab(const USceneComponent* objectToAttachTo, const FVector grabLocation, const FRotator grabRotation);
 	UFUNCTION(BlueprintCallable, Category = "Grabbing")
 	void Release();
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Grabbing")
+	bool isBeingHeld = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh")
 	UStaticMeshComponent* Mesh;
