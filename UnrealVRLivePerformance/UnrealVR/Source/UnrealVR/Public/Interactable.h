@@ -48,6 +48,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactable")
 	float destroyTimer = 0.1f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Grabbing")
+	float grabHeightOffset = 0.0f;
+
 	UFUNCTION(BlueprintCallable, Category = "Grabbing")
 	void Grab(const USceneComponent* objectToAttachTo, const FVector grabLocation, const FRotator grabRotation);
 	UFUNCTION(BlueprintCallable, Category = "Grabbing")
