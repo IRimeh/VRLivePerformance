@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "Interactable.generated.h"
 
 UCLASS()
@@ -19,8 +20,11 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Interaction")
 	void onInteract(const UStaticMeshComponent* controller);
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "Interaction")
+	void onInteractWhileHolding(const UStaticMeshComponent* controller);
+
 	//Selection
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interaction")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interactable")
 	bool isSelected;
 
 	UFUNCTION(BlueprintCallable, Category = "Interaction")
@@ -29,16 +33,37 @@ public:
 	void Deselect();
 
 	//Grabbing
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grabbing")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable")
 	bool isGrabbable;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactable")
+	int instancesAllowed = 10;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactable")
+	bool replicatedToClients = true;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactable")
+	float destroyAfterTime = -1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactable")
+	float destroyTimer = 0.1f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Grabbing")
+	float grabHeightOffset = 0.0f;
 
 	UFUNCTION(BlueprintCallable, Category = "Grabbing")
 	void Grab(const USceneComponent* objectToAttachTo, const FVector grabLocation, const FRotator grabRotation);
 	UFUNCTION(BlueprintCallable, Category = "Grabbing")
 	void Release();
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Grabbing")
+	bool isBeingHeld = false;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh")
-		UStaticMeshComponent* Mesh;
+	UStaticMeshComponent* Mesh;
+
+	UFUNCTION(BlueprintCallable, Category = "Interactable")
+	void StartDestroying();
 	
 
 protected:
@@ -56,6 +81,18 @@ protected:
 	void onGrab();
 	UFUNCTION(BlueprintImplementableEvent, Category = "Grabbing")
 	void onRelease();
+
+	//Destroying
+	UFUNCTION(BlueprintImplementableEvent, Category = "Destroying")
+	void onStartDestroying();
+
+
+private:
+	void DeleteExcessObjects();
+	void ForceDestroy();
+
+	FTimerHandle destroyTimerHandle;
+
 
 public:	
 	// Called every frame
