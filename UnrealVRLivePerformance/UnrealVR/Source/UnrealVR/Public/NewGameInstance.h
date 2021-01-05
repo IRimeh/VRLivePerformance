@@ -13,5 +13,4 @@ UCLASS()
 class UNREALVR_API UNewGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
-	
 };

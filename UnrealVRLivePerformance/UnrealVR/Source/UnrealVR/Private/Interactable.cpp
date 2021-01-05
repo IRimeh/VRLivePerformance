@@ -2,6 +2,7 @@
 
 
 #include "UnrealVR/Public/Interactable.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 
 // Sets default values
 AInteractable::AInteractable()
@@ -17,19 +18,31 @@ AInteractable::AInteractable()
 void AInteractable::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	DeleteExcessObjects();
+
+	//Destroy after seconds
+	if (destroyAfterTime > 0)
+	{
+		GetWorldTimerManager().SetTimer(destroyTimerHandle, this, &AInteractable::StartDestroying, destroyAfterTime, false);
+	}
 }
 
 // Called every frame
 void AInteractable::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void AInteractable::Interact(const UStaticMeshComponent* controller)
 {
-	onInteract(controller);
+	if (isBeingHeld)
+	{
+		onInteractWhileHolding(controller);
+	}
+	else
+	{
+		onInteract(controller);
+	}
 }
 
 void AInteractable::Select()
@@ -49,20 +62,72 @@ void AInteractable::Deselect()
 
 void AInteractable::Grab(const USceneComponent* objectToAttachTo, const FVector grabLocation, const FRotator grabRotation)
 {
-	onGrab();
 	Mesh->SetSimulatePhysics(false);
 	Mesh->SetEnableGravity(false);
 
 	AttachToComponent(const_cast<USceneComponent*>(objectToAttachTo), FAttachmentTransformRules::KeepWorldTransform);
 	RootComponent->SetWorldLocation(grabLocation);
 	RootComponent->SetWorldRotation(grabRotation);
+
+	isBeingHeld = true;
+
+	onGrab();
+
+	//Stop destroy timer
+	GetWorldTimerManager().ClearTimer(destroyTimerHandle);
 }
 
 void AInteractable::Release()
 {
-	onRelease();
 	Mesh->SetSimulatePhysics(true);
 	Mesh->SetEnableGravity(true);
 
 	DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
+	
+	isBeingHeld = false;
+
+	onRelease();
+
+	//Start destroy timer
+	if (destroyAfterTime > 0)
+	{
+		GetWorldTimerManager().SetTimer(destroyTimerHandle, this, &AInteractable::StartDestroying, destroyAfterTime, false);
+	}
+}
+
+void AInteractable::StartDestroying()
+{
+	onStartDestroying();
+	
+	FTimerHandle handle;
+	GetWorldTimerManager().SetTimer(handle, this, &AInteractable::ForceDestroy, destroyTimer, false);
+}
+
+void AInteractable::ForceDestroy()
+{
+	Destroy();
+	GetWorld()->ForceGarbageCollection(true);
+}
+
+void AInteractable::DeleteExcessObjects()
+{
+	TArray<AActor*> allActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), this->GetClass(), allActors);
+
+	int oldestActorIndex = 0;
+	float timeSinceCreation = 0;
+	if (allActors.Num() > instancesAllowed)
+	{
+		for (int i = 0; i < allActors.Num(); i++)
+		{
+			if (allActors[i]->GetGameTimeSinceCreation() > timeSinceCreation)
+			{
+				timeSinceCreation = allActors[i]->GetGameTimeSinceCreation();
+				oldestActorIndex = i;
+			}
+		}
+
+		AInteractable* interactable = Cast<AInteractable>(allActors[oldestActorIndex]);
+		interactable->StartDestroying();
+	}
 }
