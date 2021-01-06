@@ -5,7 +5,7 @@
 			"app_key": "application.generated.ue.unrealvr-13942748.ue4editor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
-			"action_manifest_path": "C:/Users/student/Documents/Unreal Projects/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Config/SteamVRBindings/steamvr_manifest.json",
+			"action_manifest_path": "D:/Unreal Engine 4 Projects/VRLivePerformance/UnrealVRLivePerformance/UnrealVR/Config/SteamVRBindings/steamvr_manifest.json",
 			"strings":
 			{
 				"en_us":
