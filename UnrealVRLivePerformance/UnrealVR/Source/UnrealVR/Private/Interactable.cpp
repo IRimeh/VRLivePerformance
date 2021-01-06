@@ -106,6 +106,7 @@ void AInteractable::StartDestroying()
 void AInteractable::ForceDestroy()
 {
 	Destroy();
+	GetWorld()->ForceGarbageCollection(true);
 }
 
 void AInteractable::DeleteExcessObjects()
