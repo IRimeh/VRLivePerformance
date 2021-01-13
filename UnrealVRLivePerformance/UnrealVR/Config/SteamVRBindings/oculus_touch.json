@@ -140,24 +140,13 @@
 					}
 				},
 				{
-					"mode": "joystick",
-					"path": "/user/hand/left/input/joystick",
+					"mode": "button",
+					"path": "/user/hand/left/input/x",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/MovementTestButtonLeft"
-						}
-					}
-				},
-				{
-					"mode": "joystick",
-					"path": "/user/hand/right/input/joystick",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/MovementTestButtonRight"
+							"output": "/actions/main/in/OpenMenu"
 						}
 					}
 				},
