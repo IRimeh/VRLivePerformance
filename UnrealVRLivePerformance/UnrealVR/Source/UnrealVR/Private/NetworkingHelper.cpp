@@ -28,7 +28,5 @@ void ANetworkingHelper::Tick(float DeltaTime)
 void ANetworkingHelper::ConnectToServer(UObject* WorldContextObject, FString ServerIP, APlayerController* PlayerController, bool Seamless)
 {
 	PlayerController->ClientTravel(ServerIP, ETravelType::TRAVEL_Absolute, Seamless);
-
-	//WorldContextObject->GetWorld()->SeamlessTravel(ServerIP, true);
 }
 
