@@ -1,1 +1,1 @@
-"C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\454928\Documents\School\Year 4\SSS\Project\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\UnrealVR.uproject" /Game/Maps/Greybox/EngineerGreybox -server -game -windowed -log
+"C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\454928\Documents\School\Year 4\SSS\Project\VRLivePerformance\UnrealVRLivePerformance\UnrealVR\UnrealVR.uproject" /Game/Maps/FinalMaps/MainMap -server -game -windowed -log
