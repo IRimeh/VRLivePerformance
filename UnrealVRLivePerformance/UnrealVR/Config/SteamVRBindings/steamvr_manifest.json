@@ -118,11 +118,7 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/MovementTestButtonLeft",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/MovementTestButtonRight",
+			"name": "/actions/main/in/OpenMenu",
 			"type": "boolean"
 		},
 		{
@@ -258,8 +254,7 @@
 			"/actions/main/in/ShootRight": "ShootRight",
 			"/actions/main/in/InteractLeft": "InteractLeft",
 			"/actions/main/in/InteractRight": "InteractRight",
-			"/actions/main/in/MovementTestButtonLeft": "MovementTestButtonLeft",
-			"/actions/main/in/MovementTestButtonRight": "MovementTestButtonRight",
+			"/actions/main/in/OpenMenu": "OpenMenu",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main": "Main Game Actions"
