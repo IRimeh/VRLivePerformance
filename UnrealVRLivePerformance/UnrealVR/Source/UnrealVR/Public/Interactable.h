@@ -2,9 +2,10 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Core.h"
 #include "GameFramework/Actor.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
+#include "Net/UnrealNetwork.h"
 #include "Interactable.generated.h"
 
 UCLASS()
@@ -56,7 +57,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Grabbing")
 	void Release();
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Grabbing")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Grabbing", Replicated)
 	bool isBeingHeld = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh")

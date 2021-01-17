@@ -2,6 +2,7 @@
 
 
 #include "UnrealVR/Public/Interactable.h"
+#include "Net/UnrealNetwork.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 
 // Sets default values
@@ -9,6 +10,7 @@ AInteractable::AInteractable()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	bReplicates = true;
 
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetSimulatePhysics(true);
@@ -130,4 +132,10 @@ void AInteractable::DeleteExcessObjects()
 		AInteractable* interactable = Cast<AInteractable>(allActors[oldestActorIndex]);
 		interactable->StartDestroying();
 	}
+}
+
+void AInteractable::GetLifetimeReplicatedProps(TArray< FLifetimeProperty >& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(AInteractable, isBeingHeld);
 }
